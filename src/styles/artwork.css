@@ -1,0 +1,54 @@
+.artwork {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .artwork-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .artwork-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .artwork-description,
+  .artwork-technique,
+  .artwork-dimensions,
+  .artwork-price {
+    margin: 0.5rem 0;
+  }
+  
+  .artwork-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .artwork-gallery-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .back-button {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #555;
+  }
