@@ -46,7 +46,7 @@ const Navbar = () => {
           </li>
           <li className="navbar-item">
             <Link to="exhibitions" smooth={true} duration={500}>
-              Exhibiciones
+              Exposiciones
             </Link>
           </li>
           <li className="navbar-item">

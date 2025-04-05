@@ -12,7 +12,6 @@ const Gallery = () => {
     return (
         <section className="gallery" id="gallery">
             <div className="gallery-content">
-                <h2 className="gallery-title">OBRAS PORTFOLIO</h2>
                 <div className="gallery-grid">
                     <div className="gallery-item"
                         onClick={() => handleClick("obra1")}

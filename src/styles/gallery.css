@@ -22,20 +22,22 @@
   /* Configuración de la cuadrícula */
   .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta el número de columnas automáticamente */
-    gap: 1.5rem; /* Espaciado entre los elementos */
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Ajusta el número de columnas automáticamente */
+    gap: 1rem; /* Espaciado entre los elementos */
     justify-items: center; /* Centra los elementos dentro de las celdas */
+    padding: 5px;
   }
   
   /* Estilo de los elementos de la galería */
   .gallery-item {
     text-align: center;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #C9AB81;
+    border: 2px solid #C9AB81;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
   }
   
   .gallery-item:hover {
@@ -44,13 +46,13 @@
   }
   
   .gallery-image {
-    width: 100%;
-    height: 150px; /* Altura fija para las imágenes */
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 250px; /* Altura fija para las imágenes */
     object-fit: cover; /* Asegura que las imágenes se ajusten sin deformarse */
   }
   
   .gallery-item-title {
     font-size: 1rem;
     margin: 0.5rem 0;
-    color: #555;
+    color: #181818;
   }

@@ -1,0 +1,39 @@
+/* Estilo general de la sección About */
+.about {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si es necesario */
+    padding: 2rem; /* Espaciado interno */
+    background-color: #0f1722
+  }
+  
+  /* Contenedor del contenido */
+  .about-content {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    background-color: #1b2736; /* Fondo blanco para el contenedor */
+    border-radius: 15px; /* Bordes redondeados */
+    border: 2px solid #C9AB81; 
+    outline: 2px solid #000000;
+    outline-offset: 6px; /* Separa el contorno del borde */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.356); /* Sombra para darle profundidad */
+    padding: 2rem; /* Espaciado interno */
+    text-align: justify; /* Justifica el texto */
+  }
+  
+  /* Título de la sección */
+  .about-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center; /* Centra el título */
+    color: #C9AB81; /* Color del texto */
+  }
+  
+  /* Texto de los párrafos */
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.6; /* Espaciado entre líneas */
+    color: #c7c7c7; /* Color del texto */
+    margin-bottom: 1rem; /* Espaciado entre párrafos */
+  }
