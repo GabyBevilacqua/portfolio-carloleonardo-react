@@ -16,7 +16,7 @@ function Home() {
             <Header />
             <About />
             <ScrollVelocity
-                texts={['Obras obras', 'Portfolio']}
+                texts={['Obras obras', 'Portfolio protfolio']}
                 velocity={velocity}
                 className="custom-scroll-text"
             />
