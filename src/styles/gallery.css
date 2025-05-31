@@ -1,58 +1,149 @@
 /* Estilo general de la galería */
 .gallery {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.gallery-content {
+  max-width: 1200px;
+  /* Limita el ancho máximo de la galería */
+  width: 100%;
+  text-align: center;
+}
+
+.gallery-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+/* Configuración de la cuadrícula */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  /* Ajusta el número de columnas automáticamente */
+  gap: 1rem;
+  /* Espaciado entre los elementos */
+  justify-items: center;
+  /* Centra los elementos dentro de las celdas */
+  padding: 5px;
+}
+
+/* Estilo de los elementos de la galería */
+
+.gallery-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(20%);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.gallery-item {
+  text-align: center;
+  border: 2px solid #C9AB81;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-item:hover .gallery-overlay {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+.gallery-item:hover .gallery-image {
+  transform: scale(1.08);
+  transition: transform 0.4s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.gallery-item:hover {
+  box-shadow:
+    0 4px 24px 8px rgba(201, 171, 129, 0.35),
+    0 0 40px 10px rgba(201, 171, 129, 0.15),
+    0 0 80px 20px rgba(15, 23, 34, 0.25);
+}
+
+.gallery-overlay-text {
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.gallery-overlay-text h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.gallery-overlay-text p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    padding: 0.5rem;
   }
-  
   .gallery-content {
-    max-width: 1200px; /* Limita el ancho máximo de la galería */
-    width: 100%;
-    text-align: center;
+    max-width: 100vw;
+    padding: 0;
   }
-  
-  .gallery-title {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #333;
-  }
-  
-  /* Configuración de la cuadrícula */
   .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Ajusta el número de columnas automáticamente */
-    gap: 1rem; /* Espaciado entre los elementos */
-    justify-items: center; /* Centra los elementos dentro de las celdas */
-    padding: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    padding: 0;
   }
-  
-  /* Estilo de los elementos de la galería */
   .gallery-item {
-    text-align: center;
-    background-color: #C9AB81;
-    border: 2px solid #C9AB81;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    
+    border-radius: 6px;
+    box-shadow: none;
+    margin: 0;
   }
-  
-  .gallery-item:hover {
-    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-  }
-  
   .gallery-image {
-    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
-    height: 250px; /* Altura fija para las imágenes */
-    object-fit: cover; /* Asegura que las imágenes se ajusten sin deformarse */
+    height: 90px;
+    min-height: 90px;
+    max-height: 90px;
+    border-radius: 6px;
   }
-  
-  .gallery-item-title {
-    font-size: 1rem;
-    margin: 0.5rem 0;
-    color: #181818;
+  .gallery-overlay,
+  .gallery-item:hover .gallery-overlay,
+  .gallery-item:hover .gallery-image,
+  .gallery-item:hover {
+    /* Elimina los efectos hover en móvil */
+    opacity: 1 !important;
+    transform: none !important;
+    box-shadow: none !important;
   }
+
+  .gallery-overlay-text h3 {
+    font-size: 0.5rem;
+  }
+  .gallery-overlay-text p {
+    font-size: 0.4rem;
+  }
+}

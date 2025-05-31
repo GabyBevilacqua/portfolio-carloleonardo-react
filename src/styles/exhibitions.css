@@ -11,14 +11,13 @@
   /* Contenedor del texto */
   .exhibitions-content {
     flex: 1; /* Ocupa el mismo espacio que la imagen */
-    background-color: #1b2736; /* Fondo para el contenedor */
-    border-radius: 15px; /* Bordes redondeados */
-    border: 2px solid #C9AB81; 
-    outline: 2px solid #000000;
-    outline-offset: 6px; /* Separa el contorno del borde */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
-    padding: 2rem; /* Espaciado interno */
-    text-align: justify; /* Justifica el texto */
+    background: linear-gradient(135deg, #1b2736 80%, #0f1722 100%);
+    border-radius: 0.8rem;
+    border: 2px solid #C9AB81;
+    box-shadow: 0 8px 32px 8px rgba(201, 171, 129, 0.25),
+        0 0 80px 10px #0f1722;
+    padding: 2rem;
+    text-align: justify;
   }
   
   /* Título de la sección */

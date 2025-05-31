@@ -18,7 +18,7 @@
             "titulo": "Delicadeza Salvaje",
             "descripcion": "La mujer en su estado primitivo o natural con respecto al pensamiento acerca de la mujer contemporánea",
             "tecnica": "Esculpido en hierro.",
-            "dimensiones": "73 cm X 49 cm X 31 cm 2001",
+            "dimensiones": "73 cm X 49 cm X 31 cm 2010",
             "precio": "Colección privada",
             "imagenes": [
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890451/delicadeza03_xej2c4.jpg",
@@ -36,7 +36,7 @@
             "titulo": "La Ultima Mascara",
             "descripcion": "Descripción de la obra 2...",
             "tecnica": "Esculpido en hierro.",
-            "dimensiones": "50 cm X 32 cm X 63 cm",
+            "dimensiones": "50 cm X 32 cm X 63 cm, 2010",
             "precio": "Precio de la obra 1...",
             "imagenes": [
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara01_est8mf.jpg",
@@ -49,11 +49,11 @@
             ]
         },
         {
-            "id": "obra4",
+            "id": "obra24",
             "titulo": "Ahogado",
             "descripcion": "Descripción de la obra 5...",
             "tecnica": "Esculpido en hierro.",
-            "dimensiones": "30 cm X 25 cm X 20 cm 2002",
+            "dimensiones": "30 cm X 25 cm X 20 cm, 2006",
             "precio": "Vendida",
             "imagenes": [
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490538/ahogado01_rogwiy.jpg",
@@ -78,7 +78,7 @@
             ]
         },
         {
-            "id": "obra6",
+            "id": "obra25",
             "titulo": "Premio Nacional 2011, Conversasión",
             "descripcion": "Descripción de la obra 6...",
             "tecnica": "Esculpido en hierro.",
@@ -98,11 +98,11 @@
             ]
         },
         {
-            "id": "obra7",
+            "id": "obra26",
             "titulo": "Complaciendo a la locura",
             "descripcion": "Descripción de la obra 7...",
             "tecnica": "Esculpido en hierro.",
-            "dimensiones": "Dimensiones de la obra 1...",
+            "dimensiones": "Dimensiones de la obra 1... 2002",
             "precio": "Vendida",
             "imagenes": [
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491553/complaciendo_la_locura-01_w5xtfn.jpg",
@@ -114,18 +114,7 @@
             ]
         },
         {
-            "id": "obra8",
-            "titulo": "Gárgola",
-            "descripcion": "Descripción de la obra 8...",
-            "tecnica": "Esculpido en hierro.",
-            "dimensiones": "60 cm X 45 cm X 45 cm",
-            "precio": "S/P",
-            "imagenes": [
-                "https://picsum.photos/id/25/200"
-            ]
-        },
-        {
-            "id": "obra9",
+            "id": "obra27",
             "titulo": "Aducción II",
             "descripcion": "Cuando te hacen pensar algo contrario a tus intereses.",
             "tecnica": "Esculpido en hierro.",
@@ -142,7 +131,7 @@
             ]
         },
         {
-            "id": "obra10",
+            "id": "obra28",
             "titulo": "Por la Vida",
             "descripcion": "Es una pieza que incita a la reflexión de hacer aquello que te motiva y no las funciones mecánicas impuestas por la cotidianidad.",
             "tecnica": "Esculpido en hierro.",
@@ -158,7 +147,7 @@
             ]
         },
         {
-            "id": "obra11",
+            "id": "obra29",
             "titulo": "Falsa Seguridad",
             "descripcion": "Inspirada en el cuestionamiento de la linertad.",
             "tecnica": "Esculpido en hierro.",
@@ -175,7 +164,7 @@
             ]
         },
         {
-            "id": "obra12",
+            "id": "obra30",
             "titulo": "La Contución",
             "descripcion": "Estudio a la violencia",
             "tecnica": "Esculpido en hierro.",

@@ -2,7 +2,7 @@
     padding: 2rem;
     text-align: center;
   }
-  
+
   .artwork-title {
     font-size: 2rem;
     margin-bottom: 1rem;
@@ -11,7 +11,7 @@
   .artwork-image {
     max-width: 100%;
     height: auto;
-    margin-bottom: 1rem;
+
   }
   
   .artwork-description,
@@ -22,19 +22,22 @@
   }
   
   .artwork-gallery {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas en desktop */
     gap: 1rem;
-    justify-content: center;
+    justify-items: center;
     margin-top: 2rem;
   }
   
   .artwork-gallery-image {
-    width: 150px;
-    height: 150px;
+      width: 90%;              /* Ocupa el 90% del ancho de su celda */
+    max-width: 700px; 
     object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    border: 2px solid #C9AB81;
+    box-shadow: 0 8px 32px 8px rgba(201, 171, 129, 0.25),
+        0 0 80px 10px #0f1722;
+        margin-bottom: 2rem;
   }
 
   .back-button {
@@ -52,3 +55,39 @@
   .back-button:hover {
     background-color: #555;
   }
+
+  .scroll-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  z-index: 1000;
+  background: #C9AB81;
+  color: #0f1722;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+.scroll-to-top:hover {
+  background: #b18c5a;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+  @media (max-width: 700px) {
+  .artwork-gallery {
+    grid-template-columns: 1fr;
+  }
+  .artwork-gallery-image {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+  }
+}
