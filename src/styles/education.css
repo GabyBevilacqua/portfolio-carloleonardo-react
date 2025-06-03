@@ -13,7 +13,7 @@
 }
 
 /* Contenedor de la imagen */
-.exhibitions-image-container {
+.education-image-container {
     flex: 1;
     /* Ocupa el mismo espacio que el texto */
     display: flex;
@@ -21,7 +21,7 @@
     align-items: center;
 }
 
-.exhibitions-image {
+.education-image {
     max-width: 350px;
     /* Asegura que la imagen no exceda el contenedor */
     height: auto;
@@ -70,4 +70,38 @@
     color: #c7c7c7;
     margin-bottom: 1rem;
     /* Espaciado entre los elementos de la lista */
+}
+
+@media (max-width: 600px) {
+  .education {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.7rem;
+  }
+  .education-image-container {
+    margin-bottom: 0.7rem;
+  }
+  .education-image {
+    max-width: 50vw;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  .education-content {
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+  }
+  .education-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  .education-list {
+    padding: 0;
+    margin: 0;
+  }
+  .education-item {
+    font-size: 0.93rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+  }
 }

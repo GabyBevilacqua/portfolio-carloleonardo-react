@@ -1,43 +1,91 @@
 /* Estilos generales del navbar */
 .navbar {
-    position: fixed; /* Siempre visible en la pantalla */
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: transparent; /* Color inicial */
-    transition: background-color 0.3s ease; /* Transición suave al cambiar de color */
-    padding: 1rem 0;
+  position: fixed;
+  /* Siempre visible en la pantalla */
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(180deg,
+      #050608 0%,
+      rgba(0, 0, 0, 0) 100%);
+  backdrop-filter: blur(200px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.5s ease;
+  /* Transición suave al cambiar de color */
+  align-items: center;
+  padding: 40px 0 20px 0;
+}
+
+.navbar.scrolled {
+  background-color: #222b46d8;
+  /* Color al hacer scroll */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  /* Centra los enlaces horizontalmente */
+  align-items: center;
+}
+
+.navbar-list {
+  list-style: none;
+  /* Quita los puntos de los <li> */
+  display: flex;
+  /* Organiza los enlaces horizontalmente */
+  gap: 2rem;
+  /* Espaciado entre los enlaces */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  cursor: pointer;
+  /* Cambia el cursor a una mano al pasar por encima */
+}
+
+.navbar-item a {
+  text-decoration: none;
+  /* Quita el subrayado de los enlaces */
+  color: white;
+  /* Color inicial del texto */
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  /* Transición suave al cambiar de color */
+}
+
+.navbar-item a:hover {
+  color: #f0a500;
+  /* Color al pasar el mouse por encima */
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 20px 0 10px 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    min-width: 0;
+    box-sizing: border-box;
   }
-  
-  .navbar.scrolled {
-    background-color: #222b46d8; /* Color al hacer scroll */
-  }
-  
   .navbar-container {
-    display: flex;
-    justify-content: center; /* Centra los enlaces horizontalmente */
-    align-items: center;
-  }
-  
-  .navbar-list {
-    list-style: none; /* Quita los puntos de los <li> */
-    display: flex; /* Organiza los enlaces horizontalmente */
-    gap: 2rem; /* Espaciado entre los enlaces */
-    margin: 0;
+    width: 100vw;
+    min-width: 0;
+    box-sizing: border-box;
+    justify-content: center;
     padding: 0;
+    margin: 0;
   }
-  
-  .navbar-item {
-    cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+  .navbar-list {
+    width: 100%;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;         /* <-- Permite que los ítems pasen a otra línea */
+    row-gap: 0.3rem;         /* Espacio entre filas */
   }
-  
   .navbar-item a {
-    text-decoration: none; /* Quita el subrayado de los enlaces */
-    color: white; /* Color inicial del texto */
-    font-size: 1rem;
-    transition: color 0.3s ease; /* Transición suave al cambiar de color */
+    font-size: 0.8rem;
+   padding: 0.3rem 1rem;
+    white-space: normal;     /* <-- Permite que el texto se parta si es necesario */
   }
-  
-  .navbar-item a:hover {
-    color: #f0a500; /* Color al pasar el mouse por encima */
-  }
+}

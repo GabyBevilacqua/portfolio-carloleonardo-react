@@ -4,11 +4,11 @@ import "../styles/education.css";
 const Education = () => {
   return (
     <section className="education" id="education">
-      <div className="exhibitions-image-container">
+      <div className="education-image-container">
         <img
           src="https://res.cloudinary.com/dzqgni1qi/image/upload/v1742840943/carlosoldando_tusmd0.webp"
-          alt="Exposiciones"
-          className="exhibitions-image"
+          alt="Educacion y estudios"
+          className="education-image"
         />
       </div>
       <div className="education-content">

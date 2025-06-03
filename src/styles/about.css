@@ -36,3 +36,40 @@
     color: #c7c7c7; /* Color del texto */
     margin-bottom: 1rem; /* Espaciado entre párrafos */
   }
+
+  @media (max-width: 768px) {
+  .about {
+    padding: 0.5rem;
+  }
+  .about-content {
+    padding: 1rem;
+    max-width: 100%;
+    border-radius: 0.5rem;
+  }
+  .about-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
+  .about-text {
+    font-size: 0.95rem;
+    margin-bottom: 0.7rem;
+  }
+
+  .about-see-more {
+  display: block;
+  margin: 0.5rem auto 0 auto;
+  padding: 0.4rem 1.2rem;
+  background: #C9AB81;
+  color: #0f1722;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+.about-see-more:hover {
+  background: #b18c5a;
+  color: #fff;
+}
+}

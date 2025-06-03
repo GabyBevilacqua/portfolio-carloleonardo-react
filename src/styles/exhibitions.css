@@ -58,3 +58,37 @@
     border: 2px solid #C9AB81; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para la imagen */
   }
+
+  @media (max-width: 768px) {
+  .exhibitions {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+  .exhibitions-content {
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  .exhibitions-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+  }
+  .exhibitions-list {
+    padding: 0;
+    margin: 0;
+  }
+  .exhibitions-item {
+    font-size: 0.95rem;
+    margin-bottom: 0.7rem;
+    line-height: 1.4;
+  }
+  .exhibitions-image-container {
+    margin-bottom: 0.7rem;
+  }
+  .exhibitions-image {
+    max-width: 50vw;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+}

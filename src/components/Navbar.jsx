@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="navbar-container">
         <ul className="navbar-list">
           <li className="navbar-item">
-            <Link to="header" smooth={true} duration={500}>
+            <Link to="top" smooth={true} duration={500}>
               Inicio
             </Link>
           </li>

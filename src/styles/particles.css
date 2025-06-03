@@ -1,0 +1,65 @@
+.particles-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.name-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.name-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.name-subtitle {
+  font-size: 2rem;
+  margin: 0.5rem 0 1rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  pointer-events: auto; /* para permitir clics en íconos */
+}
+
+.social-icons a {
+  color: white;
+  font-size: 2rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-icons a:hover {
+  color: #5f77b9;
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .name-title {
+    font-size: 1.5rem;
+  }
+  .name-subtitle {
+    font-size: 1rem;
+  }
+  .social-icons {
+    gap: 0.7rem;
+  }
+  .social-icons a {
+    font-size: 1.2rem;
+  }
+  .name-overlay {
+    padding: 0 0.5rem;
+  }
+}

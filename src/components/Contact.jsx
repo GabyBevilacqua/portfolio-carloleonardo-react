@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import "../styles/Contact.css";
+import "../styles/contact.css";
 
 // Registrar ScrollTrigger
 gsap.registerPlugin(ScrollTrigger);
