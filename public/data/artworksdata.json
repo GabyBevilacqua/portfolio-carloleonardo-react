@@ -65,23 +65,17 @@
             "imagenes": [
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052832/ada007_yp44re.webp",
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052834/ada019_gcrpse.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052817/ada018_rhxvqr.webp",
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052816/ada017_rqocdc.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052807/ada016_mqeai1.webp",
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052830/ada013_rsum7i.webp",
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052828/ada012_tzc9z2.webp",
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052827/ada011_mq6wdd.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052825/ada008_nqykve.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052824/ada010_amwaga.webp",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052825/ada008_nqykve.webp",               
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052820/ada009_rykubr.webp",
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052806/ada005_smrvpf.webp",
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052803/ada004_hrqwhp.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052805/ada003_osho5b.webp",
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052809/ada001_xy7u8h.webp",
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052810/ada002_fqofoq.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052811/ada006_k1vsn6.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052813/ada014_k36kzg.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052814/ada015_z6wbbj.webp"
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052811/ada006_k1vsn6.webp"
             ]
         },
             {
@@ -102,6 +96,28 @@
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050899/arbol1001_wlj78z.webp",
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050899/arbol1002_nspjbp.webp",
                 "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050899/arbol1003_vfoh7e.webp"
+            ]
+        },
+               {
+            "id": "obra6",
+            "titulo": "La Falda",
+            "descripcion": "Cuando te desprendes de tus ataduras comienzas a volar",
+            "tecnica": "Acero al carbono y acero inoxidable.",
+            "dimensiones": "95 cm de alto, 2024",
+            "precio": "Disponible",
+            "imagenes": [
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163285/falda021_t6cgy3.webp",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163290/falda022_ra6ou9.webp",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163281/falda015_yh1gh3.webp",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163284/falda019_o2su83.webp",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163272/falda005_yfqjb4.webp",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163270/falda003_hqcld2.webp",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163269/falda002_q8jue2.webp",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163287/falda010_gsvpeq.webp",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163283/falda017_o1t17z.webp",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163286/falda008_nl1sc2.webp",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163273/falda007_wznknb.webp",
+                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163288/falda020_m80p5o.webp"
             ]
         },
         {

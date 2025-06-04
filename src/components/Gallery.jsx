@@ -3,8 +3,14 @@ import { useNavigate } from "react-router-dom";
 import "../styles/gallery.css";
 
 const artworks = [
+        {
+    id: "obra6",
+    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163285/falda021_t6cgy3.webp",
+    title: "La Falda",
+    year: 2024,
+  },
       {
-    id: "obra04",
+    id: "obra4",
     src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052832/ada007_yp44re.webp",
     title: "El Ada",
     year: 2023,
