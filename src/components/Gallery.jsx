@@ -3,17 +3,35 @@ import { useNavigate } from "react-router-dom";
 import "../styles/gallery.css";
 
 const artworks = [
+      {
+    id: "obra04",
+    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052832/ada007_yp44re.webp",
+    title: "El Ada",
+    year: 2023,
+  },
+    {
+    id: "obra06",
+    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164593/fenix003_nbk6xe.webp",
+    title: "Ave Fenix",
+    year: 2022,
+  },
   {
     id: "obra1",
-    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741804386/tucusito01_yt9plq.jpg",
+    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163179/tucusito008_jbrlth.webp",
     title: "Tucusito (Colibrí)",
     year: 2021,
   },
   {
     id: "obra5",
-    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741804386/arboleda01_lloybq.jpg",
+    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050905/arbol1010_ixjrmw.webp",
     title: "Analogía de la arboleda",
     year: 2021,
+  },
+    {
+    id: "obra14",
+    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578979/retorcida001_st6ja6.jpg",
+    title: "Volumen abstracto",
+    year: 2014,
   },
   {
     id: "obra13",
@@ -22,10 +40,10 @@ const artworks = [
     year: 2013,
   },
   {
-    id: "obra14",
-    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578979/retorcida001_st6ja6.jpg",
-    title: "Volumen abstracto",
-    year: 2014,
+    id: "obra25",
+    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491156/001_o9cd4r.jpg",
+    title: "Conversasión",
+    year: 2011,
   },
   {
     id: "obra2",
@@ -45,12 +63,7 @@ const artworks = [
     title: "Ahogado",
     year: 2006,
   },
-  {
-    id: "obra25",
-    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491156/001_o9cd4r.jpg",
-    title: "Conversasión",
-    year: 2011,
-  },
+
   {
     id: "obra26",
     src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491553/complaciendo_la_locura-01_w5xtfn.jpg",
@@ -62,6 +75,12 @@ const artworks = [
     src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416603/aduccion1-03_iayvjr.jpg",
     title: "Aducción II",
     year: 2002,
+  },
+    {
+    id: "obra30",
+    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion03_gp1kei.jpg",
+    title: "La Contución",
+    year: 2001,
   },
   {
     id: "obra28",
@@ -75,12 +94,7 @@ const artworks = [
     title: "Falsa Seguridad",
     year: 2000,
   },
-  {
-    id: "obra30",
-    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion03_gp1kei.jpg",
-    title: "La Contución",
-    year: 2001,
-  },
+
 ];
 
 const Gallery = () => {
