@@ -12,7 +12,13 @@ const artworks = [
       {
     id: "obra4",
     src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052832/ada007_yp44re.webp",
-    title: "El Ada",
+    title: "El Hada",
+    year: 2023,
+  },
+        {
+    id: "obra9",
+    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163374/florero006_bc6g70.webp",
+    title: "Florero roto",
     year: 2023,
   },
     {
@@ -20,6 +26,12 @@ const artworks = [
     src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164593/fenix003_nbk6xe.webp",
     title: "Ave Fenix",
     year: 2022,
+  },
+      {
+    id: "obra7",
+    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164814/arbol02003_zg2rll.webp",
+    title: "Olivo en sueño",
+    year: 2021,
   },
   {
     id: "obra1",
@@ -32,6 +44,18 @@ const artworks = [
     src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050905/arbol1010_ixjrmw.webp",
     title: "Analogía de la arboleda",
     year: 2021,
+  },
+    {
+    id: "obra10",
+    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142307/ursula01_tdkjlt.webp",
+    title: "Ursula",
+    year: 2020,
+  },
+      {
+    id: "obra8",
+    src: "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050964/llama005_roclap.webp",
+    title: "Flor-Llama",
+    year: 2019,
   },
     {
     id: "obra14",

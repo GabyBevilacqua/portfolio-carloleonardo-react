@@ -1,347 +1,402 @@
 {
-    "obras": [
+  "obras": [
+    {
+      "id": "obra1",
+      "titulo": "Tucusito bailando con el viento",
+      "descripcion": "En esta obra, me centro en la contemplación del colibrí, símbolo de mi país natal, Venezuela. Su movimiento de alas configura un doble círculo, alineándose con la teoría de Kandinsky sobre la máxima expresividad de una línea, mientras conserva la fluidez y dinamismo característicos de su vuelo.",
+      "tecnica": "Esculpido en acero inoxidable.",
+      "dimensiones": "20 cm x 15 cm x 15 cm 2021",
+      "precio": "Disponible",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163180/tucusito011_uwq6s6.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163180/tucusito010_cqfeyo.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163179/tucusito009_hbwqrv.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163178/tucusito007_lzowgs.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163177/tucusito006_k5la3n.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163176/tucusito004_kwrfni.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163176/tucusito003_ssuivv.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163176/tucusito005_t95hie.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163175/tucusito002_xn7eos.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163175/tucusito001_coft2a.webp"
+      ]
+    },
+    {
+      "id": "obra2",
+      "titulo": "Delicadeza Salvaje",
+      "descripcion": "La mujer en su estado primitivo o natural con respecto al pensamiento acerca de la mujer contemporánea",
+      "tecnica": "Esculpido en hierro.",
+      "dimensiones": "73 cm X 49 cm X 31 cm 2010",
+      "precio": "Colección privada",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890451/delicadeza03_xej2c4.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890451/delicadeza04_kjmq00.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890452/delicadeza05_la6otv.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890454/delicadeza06_ptulka.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890451/delicadeza01_by4wca.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890451/delicadeza02_llg2hk.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890456/delicadeza08_gastwh.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890455/delicadeza07_v845kg.jpg"
+      ]
+    },
+    {
+      "id": "obra3",
+      "titulo": "La Ultima Mascara",
+      "descripcion": "Descripción de la obra 2...",
+      "tecnica": "Esculpido en hierro.",
+      "dimensiones": "50 cm X 32 cm X 63 cm, 2010",
+      "precio": "Vendida",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara01_est8mf.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara02_vlejih.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara03_ejhl96.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara04_drtx8b.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara05_k2mtqh.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara06_jfkjw1.jpg"
+      ]
+    },
+    {
+      "id": "obra4",
+      "titulo": "El Hada de los ruidos del pensamiento, Mencion de honor de la AEPE 2023, XVII Certamen de Valdepeñas",
+      "descripcion": "Escultura realizada por encargo para la artista Gabriella Bevilacqua, quien posteriormente incorporó elementos adicionales a la pieza. Mi labor en esta obra consistió en la creación de la estructura base (cuerpo) en acero inoxidable y mineral de hierro. Agradezco a Gabriella Bevilacqua por la oportunidad de colaborar en este proyecto.",
+      "tecnica": "Mineral de hierro, acero inoxidable y resina con tintas.",
+      "dimensiones": "Dimensiones de la obra 1...",
+      "precio": "Disponible",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052832/ada007_yp44re.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052834/ada019_gcrpse.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052816/ada017_rqocdc.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052830/ada013_rsum7i.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052828/ada012_tzc9z2.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052827/ada011_mq6wdd.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052825/ada008_nqykve.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052820/ada009_rykubr.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052806/ada005_smrvpf.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052803/ada004_hrqwhp.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052809/ada001_xy7u8h.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052810/ada002_fqofoq.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052811/ada006_k1vsn6.webp"
+      ]
+    },
+    {
+      "id": "obra5",
+      "titulo": "Analogía de la arboleda, Mención Especial, II Premio Nacional de Escultura María Belén Morales 2021",
+      "descripcion": "Escultura realizada por encargo para la artista Gabriella Bevilacqua, quien posteriormente incorporó elementos adicionales a la pieza. Mi labor en esta obra consistió en la creación de la estructura base en acero inoxidable. Agradezco a Gabriella Bevilacqua por la oportunidad de colaborar en este proyecto.",
+      "tecnica": "Acero inoxidable y resina con tintas",
+      "dimensiones": "39 cm X 30 cm X 17 cm, 2021",
+      "precio": "Disponible",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050905/arbol1010_ixjrmw.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050904/arbol1009_puuxhe.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050903/arbol1008_uyqv3s.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050903/arbol1007_slmfg2.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050902/arbol1006_c1oj4i.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050901/arbol1005_ffn4zu.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050900/arbol1004_kp48od.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050899/arbol1001_wlj78z.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050899/arbol1002_nspjbp.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050899/arbol1003_vfoh7e.webp"
+      ]
+    },
+    {
+      "id": "obra6",
+      "titulo": "La Falda",
+      "descripcion": "Cuando te desprendes de tus ataduras comienzas a volar",
+      "tecnica": "Acero al carbono y acero inoxidable.",
+      "dimensiones": "95 cm de alto, 2024",
+      "precio": "Disponible",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163285/falda021_t6cgy3.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163290/falda022_ra6ou9.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163281/falda015_yh1gh3.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163284/falda019_o2su83.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163272/falda005_yfqjb4.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163270/falda003_hqcld2.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163269/falda002_q8jue2.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163287/falda010_gsvpeq.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163283/falda017_o1t17z.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163286/falda008_nl1sc2.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163273/falda007_wznknb.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163288/falda020_m80p5o.webp"
+      ]
+    },
+    {
+      "id": "obra7",
+      "titulo": "Olivo en sueño",
+      "descripcion": "Los sueños de lluvia de un olivar. Escultura realizada por encargo para la artista Gabriella Bevilacqua, quien posteriormente incorporó elementos adicionales a la pieza. Mi labor en esta obra consistió en la creación de la estructura base en acero inoxidable. Agradezco a Gabriella Bevilacqua por la oportunidad de colaborar en este proyecto.",
+      "tecnica": "Forja fria, esculpido en acero inoxidable y resina con tintas.",
+      "dimensiones": "48 cm X 31 cm X 21 cm 2021",
+      "precio": "Disponible",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164814/arbol02003_zg2rll.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164810/arbol02001_f4sjbp.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164817/arbol02004_m30h4i.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164844/arbol02016_ebqb3i.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164840/arbol02014_srpqyg.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164837/arbol02010_lmryp8.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164835/arbol02011_etfkzz.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164828/arbol02012_kt6xgd.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164832/arbol02009_tqxzh4.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164830/arbol02015_oagoxn.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164826/arbol02008_qbcdug.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164823/arbol02006_cniiae.webp"
+      ]
+    },
+    {
+      "id": "obra8",
+      "titulo": "Flor-llama",
+      "descripcion": "La dualidad del fuego: su poder de destrucción y su capacidad de renacer. Como una flor que arde sin consumirse, encarna el ciclo eterno de transformación, donde el dolor da paso a la renovación.",
+      "tecnica": "Forja fria y esculpido en acero inoxidable.",
+      "dimensiones": "29 cm X 27 cm X 15 cm 2019",
+      "precio": "Disponible",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050964/llama005_roclap.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050963/llama004_yjh3uy.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050962/llama001_phdpym.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050965/llama003_epd5i2.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050966/llama002_murfry.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050967/llama007_ncd17o.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050968/llama006_d3jszi.webp"
+      ]
+    },
+    {
+      "id": "obra9",
+      "titulo": "Florero Roto",
+      "descripcion": "Representa la ruptura del ideal que muchas mujeres construyen sobre su vida. Una metáfora visual de cómo la realidad y las imposiciones externas quiebran esos sueños, revelando la fragilidad de las expectativas que nos enseñaron a desear. Escultura realizada por encargo para la artista Gabriella Bevilacqua, quien posteriormente incorporó elementos adicionales a la pieza. Mi labor en esta obra consistió en la creación de la estructura base en acero inoxidable. Agradezco a Gabriella Bevilacqua por la oportunidad de colaborar en este proyecto.",
+      "tecnica": "Acero inoxidable y resina con tintas",
+      "dimensiones": "57 cm X 45 cm X 45 cm 2023",
+      "precio": "Disponible",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163374/florero006_bc6g70.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163371/florero001_ip73ah.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163372/florero002_mnzx8p.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163373/florero004_dhqugh.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163375/florero003_srk8dn.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163377/florero005_cxvlww.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163378/florero007_igstee.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163379/florero008_njqync.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163380/florero010_xc3sv0.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163381/florero009_soqzkp.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163384/florero012_nsm13f.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163385/florero013_jwxy5a.webp"
+      ]
+    },
         {
-            "id": "obra1",
-            "titulo": "Tucusito bailando con el viento",
-            "descripcion": "En esta obra, me centro en la contemplación del colibrí, símbolo de mi país natal, Venezuela. Su movimiento de alas configura un doble círculo, alineándose con la teoría de Kandinsky sobre la máxima expresividad de una línea, mientras conserva la fluidez y dinamismo característicos de su vuelo.",
-            "tecnica": "Esculpido en acero inoxidable.",
-            "dimensiones": "Dimensiones 2021",
-            "precio": "Disponible",
-            "imagenes": [
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163180/tucusito011_uwq6s6.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163180/tucusito010_cqfeyo.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163179/tucusito009_hbwqrv.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163178/tucusito007_lzowgs.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163177/tucusito006_k5la3n.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163176/tucusito004_kwrfni.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163176/tucusito003_ssuivv.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163176/tucusito005_t95hie.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163175/tucusito002_xn7eos.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163175/tucusito001_coft2a.webp"
-            ]
-        },
-        {
-            "id": "obra2",
-            "titulo": "Delicadeza Salvaje",
-            "descripcion": "La mujer en su estado primitivo o natural con respecto al pensamiento acerca de la mujer contemporánea",
-            "tecnica": "Esculpido en hierro.",
-            "dimensiones": "73 cm X 49 cm X 31 cm 2010",
-            "precio": "Colección privada",
-            "imagenes": [
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890451/delicadeza03_xej2c4.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890451/delicadeza04_kjmq00.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890452/delicadeza05_la6otv.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890454/delicadeza06_ptulka.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890451/delicadeza01_by4wca.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890451/delicadeza02_llg2hk.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890456/delicadeza08_gastwh.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741890455/delicadeza07_v845kg.jpg"
-            ]
-        },
-        {
-            "id": "obra3",
-            "titulo": "La Ultima Mascara",
-            "descripcion": "Descripción de la obra 2...",
-            "tecnica": "Esculpido en hierro.",
-            "dimensiones": "50 cm X 32 cm X 63 cm, 2010",
-            "precio": "Vendida",
-            "imagenes": [
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara01_est8mf.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara02_vlejih.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara03_ejhl96.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara04_drtx8b.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara05_k2mtqh.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1741893334/mascara06_jfkjw1.jpg"
-                
-            ]
-        },
-                {
-            "id": "obra4",
-            "titulo": "El Ada de los ruidos del pensamiento, Mencion de honor de la AEPE 2023, XVII Certamen de Valdepeñas",
-            "descripcion": "Escultura realizada por encargo para la artista Gabriella Bevilacqua, quien posteriormente incorporó elementos adicionales a la pieza. Mi labor en esta obra consistió en la creación de la estructura base en acero inoxidable. Agradezco a Gabriella Bevilacqua por la oportunidad de colaborar en este proyecto.",
-            "tecnica": "Mineral de hierro, acero inoxidable y resina con tintas.",
-            "dimensiones": "Dimensiones de la obra 1...",
-            "precio": "Disponible",
-            "imagenes": [
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052832/ada007_yp44re.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052834/ada019_gcrpse.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052816/ada017_rqocdc.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052830/ada013_rsum7i.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052828/ada012_tzc9z2.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052827/ada011_mq6wdd.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052825/ada008_nqykve.webp",               
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052820/ada009_rykubr.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052806/ada005_smrvpf.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052803/ada004_hrqwhp.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052809/ada001_xy7u8h.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052810/ada002_fqofoq.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052811/ada006_k1vsn6.webp"
-            ]
-        },
-            {
-            "id": "obra5",
-            "titulo": "Analogía de la arboleda, Mención Especial, II Premio Nacional de Escultura María Belén Morales 2021",
-            "descripcion": "Escultura realizada por encargo para la artista Gabriella Bevilacqua, quien posteriormente incorporó elementos adicionales a la pieza. Mi labor en esta obra consistió en la creación de la estructura base en acero inoxidable. Agradezco a Gabriella Bevilacqua por la oportunidad de colaborar en este proyecto.",
-            "tecnica": "Acero inoxidable y resina con tintas",
-            "dimensiones": "39 cm X 30 cm X 17 cm, 2021",
-            "precio": "Disponible",
-            "imagenes": [
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050905/arbol1010_ixjrmw.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050904/arbol1009_puuxhe.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050903/arbol1008_uyqv3s.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050903/arbol1007_slmfg2.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050902/arbol1006_c1oj4i.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050901/arbol1005_ffn4zu.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050900/arbol1004_kp48od.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050899/arbol1001_wlj78z.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050899/arbol1002_nspjbp.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050899/arbol1003_vfoh7e.webp"
-            ]
-        },
-               {
-            "id": "obra6",
-            "titulo": "La Falda",
-            "descripcion": "Cuando te desprendes de tus ataduras comienzas a volar",
-            "tecnica": "Acero al carbono y acero inoxidable.",
-            "dimensiones": "95 cm de alto, 2024",
-            "precio": "Disponible",
-            "imagenes": [
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163285/falda021_t6cgy3.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163290/falda022_ra6ou9.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163281/falda015_yh1gh3.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163284/falda019_o2su83.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163272/falda005_yfqjb4.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163270/falda003_hqcld2.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163269/falda002_q8jue2.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163287/falda010_gsvpeq.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163283/falda017_o1t17z.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163286/falda008_nl1sc2.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163273/falda007_wznknb.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163288/falda020_m80p5o.webp"
-            ]
-        },
-        {
-            "id": "obra24",
-            "titulo": "Ahogado",
-            "descripcion": "Descripción de la obra 5...",
-            "tecnica": "Esculpido en hierro.",
-            "dimensiones": "30 cm X 25 cm X 20 cm, 2006",
-            "precio": "Vendida",
-            "imagenes": [
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490538/ahogado01_rogwiy.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490539/ahogado04_bgibqk.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490538/ahogado03_yzbrvp.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490539/ahogado06_hixtng.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490539/ahogado05_lmq0un.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490539/ahogado02_o7jybe.jpg"
-            ]
-        },
-    
-        {
-            "id": "obra25",
-            "titulo": "Premio Nacional 2011, Conversasión",
-            "descripcion": "Descripción de la obra 6...",
-            "tecnica": "Esculpido en hierro.",
-            "dimensiones": "Conjunto de dos piezas",
-            "precio": "S/P",
-            "imagenes": [
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491156/001_o9cd4r.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491156/002_tfhqtt.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491156/003_nrgihy.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491157/005_aomwrn.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491157/004_xv1f2n.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491157/006_zowdmv.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491317/conversion01_haz5os.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491317/conversion02_rhin5e.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491318/conversion03_pdmcmt.jpg"
-                
-            ]
-        },
-        {
-            "id": "obra26",
-            "titulo": "Complaciendo a la locura",
-            "descripcion": "Descripción de la obra 7...",
-            "tecnica": "Esculpido en hierro.",
-            "dimensiones": "Dimensiones de la obra 1... 2002",
-            "precio": "Vendida",
-            "imagenes": [
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491553/complaciendo_la_locura-01_w5xtfn.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491558/complaciendo_la_locura-02_bflkfs.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491555/complaciendo_la_locura-03_qh7bid.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491553/complaciendo_la_locura-10_gwwzay.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491559/complaciendo_la_locura-04_vvtupv.jpg"
-               
-            ]
-        },
-        {
-            "id": "obra27",
-            "titulo": "Aducción II",
-            "descripcion": "Cuando te hacen pensar algo contrario a tus intereses.",
-            "tecnica": "Esculpido en hierro.",
-            "dimensiones": "35 cm X 25 cm X 20 cm 2002",
-            "precio": "Vendida",
-            "imagenes": [
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416603/aduccion1-03_iayvjr.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416603/aduccion1-02_dak69g.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416604/aduccion1-04_baivkq.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416607/aduccion1-05_e51eqp.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416610/aduccion1-07_bwbgk8.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416611/aduccion1-08_gtp290.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416604/aduccion1-01_ty28w1.jpg"
-            ]
-        },
-        {
-            "id": "obra28",
-            "titulo": "Por la Vida",
-            "descripcion": "Es una pieza que incita a la reflexión de hacer aquello que te motiva y no las funciones mecánicas impuestas por la cotidianidad.",
-            "tecnica": "Esculpido en hierro.",
-            "dimensiones": "106 cm X 166 cm X 70 cm 2000.",
-            "precio": "Colección privada",
-            "imagenes": [
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143800/lavida05_zigwtm.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143799/lavida04_na0sub.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143799/lavida03_bjeupg.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143799/lavida01_pvpkye.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143803/lavida07_kse9tf.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143802/lavida06_wb12cb.jpg"
-            ]
-        },
-        {
-            "id": "obra29",
-            "titulo": "Falsa Seguridad",
-            "descripcion": "Inspirada en el cuestionamiento de la linertad.",
-            "tecnica": "Esculpido en hierro.",
-            "dimensiones": "86 cm X 44 cm X 60 cm 2000",
-            "precio": "Vendida",
-            "imagenes": [
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138206/falsa07_xbkbpx.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138204/falsa06_t0ewtz.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138203/falsa05_kycfhx.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138204/falsa04_bkfez5.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138203/falsa03_pvlylv.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138203/falsa02_vwgc8q.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138203/falsa01_vtstpv.jpg"
-            ]
-        },
-        {
-            "id": "obra30",
-            "titulo": "La Contución",
-            "descripcion": "Estudio a la violencia",
-            "tecnica": "Esculpido en hierro.",
-            "dimensiones": "40 cm X 27 cm X 24 cm 2001",
-            "precio": "Vendida",
-            "imagenes": [
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion03_gp1kei.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion04_hwatkg.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion01_mju9ns.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion02_tptdcd.jpg"
-            ]
-        },
-        {
-            "id": "obra13",
-            "titulo": "Gárgola",
-            "descripcion": "Esta pieza, hecha en acero y soldadura de arco, representa una gárgola destinada a asustar a la muerte y dar paso a la paz. Su concepto surge de la destrucción de ciudades e ideas por factores económicos, religiosos y políticos. El artista rechaza el 'arte de maletín', dominado por la burocracia y el mercado, en favor de un arte auténtico, nacido de la soledad del taller y el respeto a las diferencias. Critica la comercialización del arte, que lo aleja de su sentido humano y trascendencia. La obra desafía la estética convencional y reivindica el arte con contenido y significado.",
-            "tecnica": "Esculpido en hierro.",
-            "dimensiones": "40 cm X 27 cm X 24 cm 2016",
-            "precio": "Disponible (en Venezuela)",
-            "imagenes": [
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0133_vdrmjp.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0134_blc6cp.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0136_apclmf.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0137_nrlp4q.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0138_iokb2n.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0140_nzj2yq.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0142_wjm3k9.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0147_cpks8k.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578910/IMG_0145_ciwstn.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578910/IMG_0153_uqaync.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578910/IMG_0150_qazx9v.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_20160406_135305_lf6jah.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_20160406_135148_lb0yvm.jpg"
-            ]
-        },
-        {
-            "id": "obra14",
-            "titulo": "Volumen abstracto",
-            "descripcion": "...",
-            "tecnica": "Lámina de hierro al carbón",
-            "dimensiones": "50 cm X 32 cm X 63 cm",
-            "precio": "Disponible (en Venezuela)",
-            "imagenes": [
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578979/retorcida001_st6ja6.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578974/retorcida002_dyspt2.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578976/retorcida004_jdrdhu.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578975/retorcida006_fszzuj.jpg", 
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578975/retorcida003_nlvr7m.jpg",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578975/retorcida005_u0prrn.jpg"             
-            ]
-        },
-        {
-            "id": "obra06",
-            "titulo": "Ave Fenix",
-            "descripcion": "El Ave Fénix es un símbolo de renacimiento y transformación, representando la capacidad de resurgir de las cenizas. Esta obra captura la esencia de este mito, utilizando técnicas de forja fría y esculpido en acero inoxidable para crear una representación dinámica y poderosa del ave.",
-            "tecnica": "Forja fria y esculpido en acero inoxidable.",
-            "dimensiones": "50 cm X 32 cm X 63 cm 2022",
-            "precio": "Disponible",
-            "imagenes": [
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164593/fenix003_nbk6xe.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164592/fenix001_omodh0.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164595/fenix002_h1f5fx.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164599/fenix007_naognp.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164597/fenix004_pqhf45.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164601/fenix005_fibnwz.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164603/fenix009_z9dshi.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164605/fenix010_l3w717.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164607/fenix011_rhzhxk.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164609/fenix006_qot5ri.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164611/fenix008_b0rmw3.webp",
-                "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164613/fenix012_wqs8mb.webp"
-            ]
-        },
-        {
-            "id": "obraX2",
-            "titulo": "Ursula",
-            "descripcion": "Descripción de la obra 3...",
-            "tecnica": "Forja fria y esculpido en acero inoxidable.",
-            "dimensiones": "46 cm X 27 cm X 36 cm",
-            "precio": "Precio de la obra 1...",
-            "imagenes": [
-                "https://picsum.photos/200"
-            ]
-        },
-        {
-            "id": "obraX3",
-            "titulo": "La bruja de la Mancha",
-            "descripcion": "Tacones bordoneantes que embrujan en el latir frenético de un cuerpo danzante, flamenco.",
-            "tecnica": "Forja fria y esculpido en acero inoxidable.",
-            "dimensiones": "61 cm X 31 cm X 31 cm",
-            "precio": "Precio de la obra 1...",
-            "imagenes": [
-                "https://picsum.photos/id/13/200"
-            ]
-        },
-        {
-            "id": "obraX4",
-            "titulo": "Olivo en sueño",
-            "descripcion": "Descripción de la obra 6...",
-            "tecnica": "Forja fria, esculpido en acero inoxidable y resina con tintas.",
-            "dimensiones": "48 cm X 31 cm X 21 cm",
-            "precio": "Precio de la obra 1...",
-            "imagenes": [
-                "https://picsum.photos/id/15/200"
-            ]
-        },
-
-        {
-            "id": "obraX8",
-            "titulo": "Florero Roto",
-            "descripcion": "Descripción de la obra 8...",
-            "tecnica": "Acero inoxidable y resina con tintas",
-            "dimensiones": "57 cm X 45 cm X 45 cm",
-            "precio": "Precio de la obra 1...",
-            "imagenes": [
-                "https://picsum.photos/id/25/200"
-            ]
-        }     
+      "id": "obra10",
+      "titulo": "Ursula",
+      "descripcion": "Mujer",
+      "tecnica": "Forja fria y esculpido en acero inoxidable.",
+      "dimensiones": "46 cm X 27 cm X 36 cm 2020",
+      "precio": "Disponible",
+      "imagenes": ["https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142307/ursula01_tdkjlt.webp",
+      "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142309/ursula02_qnb9rj.webp",
+      "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142311/ursula03_yjdqx4.webp",
+      "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142314/ursula04_gwpcom.webp",
+      "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142349/ursula16_hin0bn.webp",
+      "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142345/ursula15_o4ymyo.webp",
+      "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142342/ursula14_b7n0iu.webp",
+      "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142339/ursula13_bpf0cx.webp",
+      "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142331/ursula10_kb9t0v.webp",
+      "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142328/ursula09_zo4bbd.webp",
+      "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142322/ursula06_zzmx16.webp",
+      "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142319/ursula07_r6d49u.webp",
+      "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142317/ursula05_nlftm5.webp",
+      "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142336/ursula12_spe9kn.webp"
     ]
+    },
+    {
+      "id": "obra24",
+      "titulo": "Ahogado",
+      "descripcion": "Descripción de la obra 5...",
+      "tecnica": "Esculpido en hierro.",
+      "dimensiones": "30 cm X 25 cm X 20 cm, 2006",
+      "precio": "Vendida",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490538/ahogado01_rogwiy.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490539/ahogado04_bgibqk.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490538/ahogado03_yzbrvp.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490539/ahogado06_hixtng.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490539/ahogado05_lmq0un.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742490539/ahogado02_o7jybe.jpg"
+      ]
+    },
+
+    {
+      "id": "obra25",
+      "titulo": "Premio Nacional 2011, Conversasión",
+      "descripcion": "Descripción de la obra 6...",
+      "tecnica": "Esculpido en hierro.",
+      "dimensiones": "Conjunto de dos piezas",
+      "precio": "S/P",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491156/001_o9cd4r.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491156/002_tfhqtt.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491156/003_nrgihy.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491157/005_aomwrn.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491157/004_xv1f2n.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491157/006_zowdmv.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491317/conversion01_haz5os.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491317/conversion02_rhin5e.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491318/conversion03_pdmcmt.jpg"
+      ]
+    },
+    {
+      "id": "obra26",
+      "titulo": "Complaciendo a la locura",
+      "descripcion": "Descripción de la obra 7...",
+      "tecnica": "Esculpido en hierro.",
+      "dimensiones": "Dimensiones de la obra 1... 2002",
+      "precio": "Vendida",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491553/complaciendo_la_locura-01_w5xtfn.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491558/complaciendo_la_locura-02_bflkfs.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491555/complaciendo_la_locura-03_qh7bid.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491553/complaciendo_la_locura-10_gwwzay.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491559/complaciendo_la_locura-04_vvtupv.jpg"
+      ]
+    },
+    {
+      "id": "obra27",
+      "titulo": "Aducción II",
+      "descripcion": "Cuando te hacen pensar algo contrario a tus intereses.",
+      "tecnica": "Esculpido en hierro.",
+      "dimensiones": "35 cm X 25 cm X 20 cm 2002",
+      "precio": "Vendida",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416603/aduccion1-03_iayvjr.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416603/aduccion1-02_dak69g.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416604/aduccion1-04_baivkq.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416607/aduccion1-05_e51eqp.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416610/aduccion1-07_bwbgk8.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416611/aduccion1-08_gtp290.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416604/aduccion1-01_ty28w1.jpg"
+      ]
+    },
+    {
+      "id": "obra28",
+      "titulo": "Por la Vida",
+      "descripcion": "Es una pieza que incita a la reflexión de hacer aquello que te motiva y no las funciones mecánicas impuestas por la cotidianidad.",
+      "tecnica": "Esculpido en hierro.",
+      "dimensiones": "106 cm X 166 cm X 70 cm 2000.",
+      "precio": "Colección privada",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143800/lavida05_zigwtm.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143799/lavida04_na0sub.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143799/lavida03_bjeupg.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143799/lavida01_pvpkye.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143803/lavida07_kse9tf.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143802/lavida06_wb12cb.jpg"
+      ]
+    },
+    {
+      "id": "obra29",
+      "titulo": "Falsa Seguridad",
+      "descripcion": "Inspirada en el cuestionamiento de la linertad.",
+      "tecnica": "Esculpido en hierro.",
+      "dimensiones": "86 cm X 44 cm X 60 cm 2000",
+      "precio": "Vendida",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138206/falsa07_xbkbpx.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138204/falsa06_t0ewtz.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138203/falsa05_kycfhx.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138204/falsa04_bkfez5.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138203/falsa03_pvlylv.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138203/falsa02_vwgc8q.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138203/falsa01_vtstpv.jpg"
+      ]
+    },
+    {
+      "id": "obra30",
+      "titulo": "La Contución",
+      "descripcion": "Estudio a la violencia",
+      "tecnica": "Esculpido en hierro.",
+      "dimensiones": "40 cm X 27 cm X 24 cm 2001",
+      "precio": "Vendida",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion03_gp1kei.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion04_hwatkg.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion01_mju9ns.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion02_tptdcd.jpg"
+      ]
+    },
+    {
+      "id": "obra13",
+      "titulo": "Gárgola",
+      "descripcion": "Esta pieza, hecha en acero y soldadura de arco, representa una gárgola destinada a asustar a la muerte y dar paso a la paz. Su concepto surge de la destrucción de ciudades e ideas por factores económicos, religiosos y políticos. El artista rechaza el 'arte de maletín', dominado por la burocracia y el mercado, en favor de un arte auténtico, nacido de la soledad del taller y el respeto a las diferencias. Critica la comercialización del arte, que lo aleja de su sentido humano y trascendencia. La obra desafía la estética convencional y reivindica el arte con contenido y significado.",
+      "tecnica": "Esculpido en hierro.",
+      "dimensiones": "40 cm X 27 cm X 24 cm 2016",
+      "precio": "Disponible (en Venezuela)",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0133_vdrmjp.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0134_blc6cp.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0136_apclmf.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0137_nrlp4q.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0138_iokb2n.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0140_nzj2yq.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0142_wjm3k9.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0147_cpks8k.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578910/IMG_0145_ciwstn.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578910/IMG_0153_uqaync.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578910/IMG_0150_qazx9v.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_20160406_135305_lf6jah.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_20160406_135148_lb0yvm.jpg"
+      ]
+    },
+    {
+      "id": "obra14",
+      "titulo": "Volumen abstracto",
+      "descripcion": "...",
+      "tecnica": "Lámina de hierro al carbón",
+      "dimensiones": "50 cm X 32 cm X 63 cm",
+      "precio": "Disponible (en Venezuela)",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578979/retorcida001_st6ja6.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578974/retorcida002_dyspt2.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578976/retorcida004_jdrdhu.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578975/retorcida006_fszzuj.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578975/retorcida003_nlvr7m.jpg",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578975/retorcida005_u0prrn.jpg"
+      ]
+    },
+    {
+      "id": "obra06",
+      "titulo": "Ave Fenix",
+      "descripcion": "El Ave Fénix es un símbolo de renacimiento y transformación, representando la capacidad de resurgir de las cenizas. Esta obra captura la esencia de este mito, utilizando técnicas de forja fría y esculpido en acero inoxidable para crear una representación dinámica y poderosa del ave.",
+      "tecnica": "Forja fria y esculpido en acero inoxidable.",
+      "dimensiones": "50 cm X 32 cm X 63 cm 2022",
+      "precio": "Disponible",
+      "imagenes": [
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164593/fenix003_nbk6xe.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164592/fenix001_omodh0.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164595/fenix002_h1f5fx.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164599/fenix007_naognp.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164597/fenix004_pqhf45.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164601/fenix005_fibnwz.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164603/fenix009_z9dshi.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164605/fenix010_l3w717.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164607/fenix011_rhzhxk.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164609/fenix006_qot5ri.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164611/fenix008_b0rmw3.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164613/fenix012_wqs8mb.webp"
+      ]
+    },
+    {
+      "id": "obraX3",
+      "titulo": "La bruja de la Mancha",
+      "descripcion": "Tacones bordoneantes que embrujan en el latir frenético de un cuerpo danzante, flamenco.",
+      "tecnica": "Forja fria y esculpido en acero inoxidable.",
+      "dimensiones": "61 cm X 31 cm X 31 cm",
+      "precio": "Precio de la obra 1...",
+      "imagenes": ["https://picsum.photos/id/13/200"]
+    },
+
+    {
+      "id": "obraxxx",
+      "titulo": "",
+      "descripcion": "Descripción de la obra xxx...",
+      "tecnica": "Forja fria y esculpido en acero inoxidable.",
+      "dimensiones": " cm X  cm X  cm",
+      "precio": "Precio de la obra 1...",
+      "imagenes": ["https://picsum.photos/200"]
+    }
+  ]
 }

@@ -6,7 +6,7 @@ const Awards = () => {
         <section className="awards" id="awards">
             <div className="awards-image-container">
                 <img
-                    src="https://res.cloudinary.com/dzqgni1qi/image/upload/v1742840943/carlosoldando_tusmd0.webp"
+                    src="https://res.cloudinary.com/dzqgni1qi/image/upload/v1749143642/carlo03_nsehlq.webp"
                     alt="Premios y reconocimientos"
                     className="awards-image"
                 />

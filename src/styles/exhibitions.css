@@ -61,7 +61,7 @@
 
   @media (max-width: 768px) {
   .exhibitions {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 1rem;
     padding: 0.5rem;
   }

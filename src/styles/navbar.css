@@ -49,7 +49,7 @@
   /* Quita el subrayado de los enlaces */
   color: white;
   /* Color inicial del texto */
-  font-size: 1rem;
+  font-size: 2rem;
   transition: color 0.3s ease;
   /* Transición suave al cambiar de color */
 }
@@ -78,13 +78,13 @@
   }
   .navbar-list {
     width: 100%;
-    gap: 0.5rem;
+    gap: 0.6rem;
     justify-content: center;
     flex-wrap: wrap;         /* <-- Permite que los ítems pasen a otra línea */
     row-gap: 0.3rem;         /* Espacio entre filas */
   }
   .navbar-item a {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
    padding: 0.3rem 1rem;
     white-space: normal;     /* <-- Permite que el texto se parta si es necesario */
   }

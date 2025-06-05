@@ -144,10 +144,26 @@
     box-shadow: none !important;
   }
 
+    .gallery-overlay {
+    background: none !important; /* Quita el fondo oscuro de toda la imagen */
+    align-items: flex-end;
+    justify-content: center;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
   .gallery-overlay-text h3 {
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
   .gallery-overlay-text p {
-    font-size: 0.4rem;
+    font-size: 0.7rem;
+  }
+  
+  .gallery-overlay-text {
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent 90%);
+    padding: 0.2rem;
+    border-radius: 0 0 6px 6px;
+    width: 100%;
+    color: #fff;
   }
 }
