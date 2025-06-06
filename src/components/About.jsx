@@ -13,9 +13,18 @@ const About = () => {
   // Utiliza useGSAP para parallax del fondo
   useGSAP(
     () => {
+        
       const section = aboutRef.current;
       const bg = section.querySelector(".bg");
 
+
+          // Si es móvil, no ejecutes GSAP/ScrollTrigger
+    if (window.innerWidth <= 768) {
+      gsap.set(bg, { clearProps: "all" }); // Limpia cualquier estilo aplicado previamente
+      return;
+    }
+
+    
       const getRatio = (el) =>
         window.innerHeight / (window.innerHeight + el.offsetHeight);
 
@@ -40,6 +49,7 @@ const About = () => {
           },
         }
       );
+    
     },
     { scope: aboutRef }
   ); // importante para el contexto de GSAP
