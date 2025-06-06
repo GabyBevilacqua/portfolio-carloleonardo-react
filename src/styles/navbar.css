@@ -49,7 +49,7 @@
   /* Quita el subrayado de los enlaces */
   color: white;
   /* Color inicial del texto */
-  font-size: 2rem;
+  font-size: 1.6rem;
   transition: color 0.3s ease;
   /* Transición suave al cambiar de color */
 }

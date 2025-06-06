@@ -1,75 +1,90 @@
 /* Estilo general de la sección About */
+
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://res.cloudinary.com/dzqgni1qi/image/upload/v1749222928/paisaje02_xxz49q.webp");
+  /* o una fija */
+}
+
 .about {
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente si es necesario */
-    padding: 2rem; /* Espaciado interno */
-    background-color: #0f1722
-  }
-  
-  /* Contenedor del contenido */
-  .about-content {
-    max-width: 800px; /* Ancho máximo del contenedor */
-    width: 100%; /* Asegura que ocupe todo el ancho disponible */
-    background: linear-gradient(135deg, #1b2736 80%, #0f1722 100%);
-    border-radius: 0.8rem;
-    border: 2px solid #C9AB81;
-    box-shadow: 0 8px 32px 8px rgba(201, 171, 129, 0.25),
-        0 0 80px 10px #0f1722;
-    padding: 2rem;
-    text-align: justify;
-  }
-  
-  /* Título de la sección */
-  .about-title {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    text-align: center; /* Centra el título */
-    color: #C9AB81; /* Color del texto */
-  }
-  
-  /* Texto de los párrafos */
-  .about-text {
-    font-size: 1rem;
-    line-height: 1.6; /* Espaciado entre líneas */
-    color: #c7c7c7; /* Color del texto */
-    margin-bottom: 1rem; /* Espaciado entre párrafos */
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contenedor del contenido */
+.about-content {
+  max-width: 70vw;
+  /* Ancho máximo del contenedor */
+  width: 100%;
+  /* Asegura que ocupe todo el ancho disponible */
+  background: linear-gradient(135deg, #1b2736b6 80%, #0f17226c 100%);
+
+  border: 2px solid #C9AB81;
+  padding: 1.5rem;
+  text-align: justify;
+}
+
+/* Título de la sección */
+.about-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  /* Centra el título */
+  color: #C9AB81;
+  /* Color del texto */
+}
+
+/* Texto de los párrafos */
+.about-text {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.6;
+  /* Espaciado entre líneas */
+  color: #ffffff;
+  /* Color del texto */
+  margin-bottom: 1rem;
+  /* Espaciado entre párrafos */
+}
+
+@media (max-width: 768px) {
+  .about {
+    height: auto;
+    min-height: 100vh;
+    padding: 0.5rem;
+    display: block;
   }
 
-  @media (max-width: 768px) {
-  .about {
-    padding: 0.5rem;
-  }
   .about-content {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     padding: 1rem;
     max-width: 100%;
-    border-radius: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
   }
+
   .about-title {
     font-size: 1.2rem;
     margin-bottom: 0.7rem;
   }
+
   .about-text {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     margin-bottom: 0.7rem;
+    font-weight: normal;
   }
 
-  .about-see-more {
-  display: block;
-  margin: 0.5rem auto 0 auto;
-  padding: 0.4rem 1.2rem;
-  background: #C9AB81;
-  color: #0f1722;
-  border: none;
-  border-radius: 0.5rem;
-  font-weight: bold;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background 0.2s;
-}
-.about-see-more:hover {
-  background: #b18c5a;
-  color: #fff;
-}
 }

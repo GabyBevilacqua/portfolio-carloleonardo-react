@@ -1,3 +1,7 @@
+.parallax-section {
+  margin-top: 1.5rem;;
+}
+
 .parallax {
     position: relative;
     overflow: hidden;
@@ -8,7 +12,7 @@
     white-space: nowrap;
     text-align: center;
     font-family: sans-serif;
-    font-size: 2.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: -0.02em;
     filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));

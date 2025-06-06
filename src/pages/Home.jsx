@@ -28,7 +28,7 @@ function Home() {
   return (
     <>
       <div id="top"></div>
-      <div style={{ width: "100%", height: "600px", position: "relative" }}>
+      <div style={{ width: "100%", height: "100vh", position: "relative" }}>
         <Particles
           particleColors={["#ffffff", "#ffffff"]}
           particleCount={500}
