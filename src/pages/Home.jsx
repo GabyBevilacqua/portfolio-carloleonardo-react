@@ -18,9 +18,9 @@ import { faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { ScrollSmoother } from "gsap/ScrollSmoother";
+import CircularGallery from "../components/CircularGallery";
 
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+gsap.registerPlugin(ScrollTrigger);
 
 function Home() {
   const velocity = 100; // Define un valor para velocity
@@ -35,74 +35,66 @@ function Home() {
     }
   }, []);
 
-  useGSAP(() => {
-  if (window.innerWidth > 768) {
-    ScrollSmoother.create({
-      wrapper: "#smooth-wrapper",
-      content: "#smooth-content",
-      smooth: 2,
-      effects: true,
-    });
-  }
-  });
-
   return (
-    <div id="smooth-wrapper">
-      <div id="smooth-content">
-        <div id="top"></div>
-        <div style={{ width: "100%", height: "100vh", position: "relative" }}>
-          <Particles
-            particleColors={["#ffffff", "#ffffff"]}
-            particleCount={500}
-            particleSpread={10}
-            speed={0.1}
-            particleBaseSize={100}
-            moveParticlesOnHover={true}
-            alphaParticles={false}
-            disableRotation={false}
-          />
-          <div className="name-overlay">
-            <h1 className="name-title">CARLOLEONARDO APONTE</h1>
-            <p className="name-subtitle">Escultor</p>
-            <div className="social-icons">
-              <a
-                href="https://www.instagram.com/carlo.aponte/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faInstagram} />
-              </a>
-              <a
-                href="https://www.facebook.com/aponte.carloleonardo"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faFacebookF} />
-              </a>
-              <a
-                href="https://www.tiktok.com/@carloleonardoaponte"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon icon={faTiktok} />
-              </a>
-            </div>
+    <>
+      <div id="top"></div>
+      <div style={{ width: "100%", height: "100vh", position: "relative" }}>
+        <Particles
+          particleColors={["#ffffff", "#ffffff"]}
+          particleCount={500}
+          particleSpread={10}
+          speed={0.1}
+          particleBaseSize={100}
+          moveParticlesOnHover={true}
+          alphaParticles={false}
+          disableRotation={false}
+        />
+        <div className="name-overlay">
+          <h1 className="name-title">CARLOLEONARDO APONTE</h1>
+          <p className="name-subtitle">Escultor</p>
+          <div className="social-icons">
+            <a
+              href="https://www.instagram.com/carlo.aponte/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
+            <a
+              href="https://www.facebook.com/aponte.carloleonardo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faFacebookF} />
+            </a>
+            <a
+              href="https://www.tiktok.com/@carloleonardoaponte"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faTiktok} />
+            </a>
           </div>
         </div>
-        {/* <Header /> */}
-        <About />
-        <ScrollVelocity
-          texts={["Obras obras", "Portfolio protfolio"]}
-          velocity={velocity}
-          className="custom-scroll-text"
-        />
-        <Gallery />
-        <Awards />
-        <Exhibitions />
-        <Education />
-        <Contact />
       </div>
-    </div>
+      {/* <Header /> */}
+      <About />
+      <ScrollVelocity
+        texts={["Obras obras", "Portfolio protfolio"]}
+        velocity={velocity}
+        className="custom-scroll-text"
+      />
+      <Gallery />
+      <Awards />
+
+      <div style={{ height: "600px", position: "relative" }}>
+        <CircularGallery bend={0} textColor="#ffffff" borderRadius={0.05} />
+      </div>
+
+      <Exhibitions />
+      <Education />
+      <Contact />
+    </>
   );
 }
 export default Home;

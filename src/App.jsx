@@ -1,5 +1,4 @@
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
   useLocation,
@@ -7,16 +6,15 @@ import {
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Artwork from "./pages/Artwork";
-import { useState, useEffect } from "react";
-import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
+import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import { ScrollSmoother } from "gsap/ScrollSmoother";
 import { AnimatePresence } from "framer-motion";
-import PageWrapper from "./components/PageWrapper"; // ✅ Nuevo
+import PageWrapper from "./components/PageWrapper";
 
 gsap.registerPlugin(useGSAP);
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -28,7 +26,6 @@ function AnimatedRoutes() {
           path="/"
           element={
             <PageWrapper>
-              <Navbar />
               <Home />
             </PageWrapper>
           }
@@ -47,10 +44,29 @@ function AnimatedRoutes() {
 }
 
 function App() {
+  const location2 = useLocation();
+
+  useGSAP(() => {
+    if (window.innerWidth > 768) {
+      ScrollSmoother.create({
+        wrapper: "#smooth-wrapper",
+        content: "#smooth-content",
+        smooth: 2,
+        effects: true,
+      });
+    }
+  }, []);
+
+  // Solo muestra Navbar en Home
+  const showNavbar = location2.pathname === "/";
+
   return (
-    <Router>
-      <AnimatedRoutes />
-    </Router>
+    <div id="smooth-wrapper">
+      {showNavbar && <Navbar />}
+      <div id="smooth-content">
+        <AnimatedRoutes />
+      </div>
+    </div>
   );
 }
 
