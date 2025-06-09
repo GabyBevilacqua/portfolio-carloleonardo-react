@@ -6,7 +6,7 @@ const Education = () => {
   const demoItems = [
     {
       link: "#",
-      text: "ESTUDIOS Y TALLERES DE INVESTIGACION",
+      text: "ESTUDIOS Y TALLERES",
       image:
         "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742662490/chef-profile_mk5dba.jpg",
     },

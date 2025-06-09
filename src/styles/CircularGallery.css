@@ -9,3 +9,33 @@
 .circular-gallery:active {
   cursor: grabbing;
 }
+
+/* Flechas del carrusel solo en móvil */
+.carousel-arrows {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .carousel-arrows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    pointer-events: none; /* No bloquea el swipe */
+    z-index: 10;
+    padding: 0 0.2rem;
+  }
+  .arrow {
+    font-size: 1rem;
+    color: #C9AB81;
+    background: rgba(255, 255, 255, 0.322);
+    border-radius: 50%;
+    padding: 0.2em 0.5em;
+    pointer-events: none;
+    user-select: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+}

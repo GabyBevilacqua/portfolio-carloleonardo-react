@@ -1,5 +1,6 @@
 .menu-wrap {
-  position: relative; /* Necesario para posicionar los pseudoelementos */
+  position: relative;
+  /* Necesario para posicionar los pseudoelementos */
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -11,9 +12,11 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 75vw;         /* 3/4 de la pantalla */
+  width: 75vw;
+  /* 3/4 de la pantalla */
   height: 2px;
-  background: #C9AB81; /* O el color que prefieras */
+  background: #C9AB81;
+  /* O el color que prefieras */
   z-index: 2;
 }
 
@@ -22,7 +25,8 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 75vw;         /* 3/4 de la pantalla */
+  width: 75vw;
+  /* 3/4 de la pantalla */
   height: 2px;
   background: #C9AB81;
   z-index: 2;
@@ -75,7 +79,12 @@
   width: 100%;
   height: 100%;
   pointer-events: none;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.25);
+  /* Blanco translúcido */
+  backdrop-filter: blur(8px);
+  /* Efecto cristal esmerilado */
+  -webkit-backdrop-filter: blur(8px);
+  /* Soporte Safari */
   transform: translate3d(0, 101%, 0);
   transition: transform 0.6s ease-expo;
 }
@@ -98,7 +107,7 @@
 }
 
 .marquee span {
-  color: #060010;
+  color: #e6e6e6;
   white-space: nowrap;
   text-transform: uppercase;
   font-weight: 400;
@@ -141,8 +150,10 @@
 
   .menu-wrap::before,
   .menu-wrap::after {
-    width: 80vw;      /* Líneas más largas en móvil */
-    height: 1px;    /* Líneas más delgadas */
+    width: 80vw;
+    /* Líneas más largas en móvil */
+    height: 1px;
+    /* Líneas más delgadas */
   }
 
   .menu {
@@ -150,9 +161,10 @@
     height: auto;
   }
 
-   .menu__item-link {
+  .menu__item-link {
     display: none;
   }
+
   .marquee span {
     font-size: 2.5vh;
     padding: 1vh 2vw 0;
@@ -164,12 +176,17 @@
     margin: 1em 1vw;
     padding: 0.5em 0;
   }
-    .marquee {
+
+  .marquee {
     transform: translate3d(0, 0, 0) !important;
     pointer-events: auto;
-    position: static; /* Opcional: para que fluya en el layout */
-    background: #fff; /* O el fondo que prefieras */
-    height: auto;     /* Ajusta si es necesario */
+    position: static;
+    /* Opcional: para que fluya en el layout */
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    height: auto;
+    /* Ajusta si es necesario */
     margin-top: 5px;
     margin-bottom: 5px;
   }
