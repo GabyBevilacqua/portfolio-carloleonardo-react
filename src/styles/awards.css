@@ -1,87 +1,103 @@
 /* Estilo general de la sección Awards */
 .awards {
-    display: flex;
-    justify-content: center; /* Centra los elementos horizontalmente */
-    align-items: center; /* Centra los elementos verticalmente */
-    gap: 2rem; /* Espaciado entre la imagen y el texto */
-    padding: 2rem;
-    background-color: #0f1722; /* Fondo claro para la sección */
-  }
+  display: flex;
+  justify-content: center;
+  /* Centra los elementos horizontalmente */
+  align-items: center;
+  /* Centra los elementos verticalmente */
+  gap: 2rem;
+  /* Espaciado entre la imagen y el texto */
+  padding: 2rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
 
-  /* Contenedor de la imagen */
-  .awards-image-container {
-    flex: 1; /* Ocupa el mismo espacio que el texto */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .awards-image {
-    max-width: 350px; /* Asegura que la imagen no exceda el contenedor */
-    height: auto;
-    border-radius: 8px; /* Bordes redondeados para la imagen */
-    border: 2px solid #C9AB81; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para la imagen */
-  }
-  
-  /* Contenedor del texto */
-  .awards-content {
-    flex: 1; /* Ocupa el mismo espacio que la imagen */
-    background: linear-gradient(135deg, #1b2736 80%, #0f1722 100%);
-    border-radius: 0.8rem;
-    border: 2px solid #C9AB81;
-    box-shadow: 0 8px 32px 8px rgba(201, 171, 129, 0.25),
-        0 0 80px 10px #0f1722;
-    padding: 2rem;
-    text-align: justify;
-  }
-  
-  /* Título de la sección */
-  .awards-title {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    text-align: center; /* Centra el título */
-    color: #C9AB81;
-  }
-  
-  /* Lista de premios */
-  .awards-list {
-    list-style: none; /* Quita los puntos de la lista */
-    padding: 0;
-    margin: 0;
-  }
-  
-  .awards-item {
-    font-size: 1rem;
-    line-height: 1.6; /* Espaciado entre líneas */
-    color: #c7c7c7;
-    margin-bottom: 1rem; /* Espaciado entre los elementos de la lista */
-  }
+/* Contenedor de la imagen */
+.awards-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  @media (max-width: 768px) {
+.awards-image {
+  max-width: 350px;
+  /* Asegura que la imagen no exceda el contenedor */
+  height: auto;
+  border-radius: 5px;
+  /* Bordes redondeados para la imagen */
+  border: 1px solid #979797;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Sombra para la imagen */
+}
+
+/* Contenedor del texto */
+.awards-content {
+  border-radius: 5px;
+  box-shadow:
+    0 2px 8px 2px rgba(156, 154, 152, 0.18),
+    0 0 12px 2px rgba(201, 171, 129, 0.10),
+    0 0 24px 4px rgba(15, 23, 34, 0.10);
+  padding: 2rem;
+  text-align: justify;
+}
+
+/* Título de la sección */
+.awards-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  /* Centra el título */
+  color: #C9AB81;
+}
+
+/* Lista de premios */
+.awards-list {
+  list-style: none;
+  /* Quita los puntos de la lista */
+  padding: 0;
+  margin: 0;
+}
+
+.awards-item {
+  font-size: 1rem;
+  line-height: 1.6;
+  /* Espaciado entre líneas */
+  color: #c7c7c7;
+  margin-bottom: 1rem;
+  /* Espaciado entre los elementos de la lista */
+}
+
+@media (max-width: 768px) {
   .awards {
     flex-direction: column;
     gap: 1rem;
     padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
+
   .awards-image-container {
     margin-bottom: 1rem;
   }
+
   .awards-image {
     max-width: 50vw;
     width: 100%;
     height: auto;
     border-radius: 0.5rem;
   }
+
   .awards-content {
     padding: 1rem;
     border-radius: 0.5rem;
   }
+
   .awards-title {
     font-size: 1.2rem;
     margin-bottom: 0.7rem;
   }
+
   .awards-item {
     font-size: 0.95rem;
     margin-bottom: 0.7rem;

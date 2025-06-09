@@ -141,7 +141,7 @@ class Media {
     this.font = font
     this.createShader()
     this.createMesh()
-    this.createTitle()
+    // this.createTitle()
     this.onResize()
   }
   createShader() {
@@ -331,18 +331,22 @@ class App {
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
-      { image: `https://picsum.photos/seed/1/800/600?grayscale`, text: 'Bridge' },
-      { image: `https://picsum.photos/seed/2/800/600?grayscale`, text: 'Desk Setup' },
-      { image: `https://picsum.photos/seed/3/800/600?grayscale`, text: 'Waterfall' },
-      { image: `https://picsum.photos/seed/4/800/600?grayscale`, text: 'Strawberries' },
-      { image: `https://picsum.photos/seed/5/800/600?grayscale`, text: 'Deep Diving' },
-      { image: `https://picsum.photos/seed/16/800/600?grayscale`, text: 'Train Track' },
-      { image: `https://picsum.photos/seed/17/800/600?grayscale`, text: 'Santorini' },
-      { image: `https://picsum.photos/seed/8/800/600?grayscale`, text: 'Blurry Lights' },
-      { image: `https://picsum.photos/seed/9/800/600?grayscale`, text: 'New York' },
-      { image: `https://picsum.photos/seed/10/800/600?grayscale`, text: 'Good Boy' },
-      { image: `https://picsum.photos/seed/21/800/600?grayscale`, text: 'Coastline' },
-      { image: `https://picsum.photos/seed/12/800/600?grayscale`, text: "Palm Trees" }
+      { image: `https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472418/carru007_xweizb.webp`}, //, text: 'Bridge' dentro de las llaves
+      { image: `https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472418/carru006_dxkcw3.webp`},
+      { image: `https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472417/carru005_mqmmhl.webp`},
+      { image: `https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472417/carru003_a2jill.webp`},
+      { image: `https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472417/carru004_wyahop.webp`},
+      { image: `https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472415/carru002_gm0trj.webp`},
+      { image: `https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472415/carru001_vmpfwl.webp`},
+      { image: `https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472415/carru031_s82v1g.webp`},
+      { image: `https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472412/carru028_zvufmc.webp`},
+      { image: `https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472412/carru026_kzf8ve.webp`},
+      { image: `https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472409/carru019_sz6sai.webp`},
+      { image: `https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472411/carru023_conzai.webp`},
+      { image: `https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472408/carru013_vrjkl9.webp`},
+      { image: `https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472408/carru011_oaqk1a.webp`},
+      { image: `https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472408/carru008_fzr7nz.webp`},
+      { image: `https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472408/carru009_eoia0l.webp`}
     ]
     const galleryItems = items && items.length ? items : defaultItems
     this.mediasImages = galleryItems.concat(galleryItems)
@@ -356,7 +360,7 @@ class App {
         renderer: this.renderer,
         scene: this.scene,
         screen: this.screen,
-        text: data.text,
+        // text: data.text,
         viewport: this.viewport,
         bend,
         textColor,

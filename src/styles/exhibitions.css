@@ -1,23 +1,27 @@
 /* Estilo general de la sección Exhibitions */
 .exhibitions {
-    display: flex;
-    justify-content: center; /* Centra los elementos horizontalmente */
-    align-items: center; /* Centra los elementos verticalmente */
-    gap: 2rem; /* Espaciado entre el texto y la imagen */
-    padding: 2rem;
-    background-color: #0f1722; /* Fondo claro para la sección */
+  display: flex;
+  justify-content: center;
+  /* Centra los elementos horizontalmente */
+  align-items: center;
+  /* Centra los elementos verticalmente */
+  gap: 2rem;
+  /* Espaciado entre la imagen y el texto */
+  padding: 2rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-bottom: 3rem;
   }
   
   /* Contenedor del texto */
   .exhibitions-content {
-    flex: 1; /* Ocupa el mismo espacio que la imagen */
-    background: linear-gradient(135deg, #1b2736 80%, #0f1722 100%);
-    border-radius: 0.8rem;
-    border: 2px solid #C9AB81;
-    box-shadow: 0 8px 32px 8px rgba(201, 171, 129, 0.25),
-        0 0 80px 10px #0f1722;
-    padding: 2rem;
-    text-align: justify;
+  border-radius: 5px;
+  box-shadow:
+    0 2px 8px 2px rgba(156, 154, 152, 0.18),
+    0 0 12px 2px rgba(201, 171, 129, 0.10),
+    0 0 24px 4px rgba(15, 23, 34, 0.10);
+  padding: 2rem;
+  text-align: justify;
   }
   
   /* Título de la sección */
@@ -45,18 +49,20 @@
   
   /* Contenedor de la imagen */
   .exhibitions-image-container {
-    flex: 1; /* Ocupa el mismo espacio que el texto */
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   .exhibitions-image {
-    max-width: 350px; /* Asegura que la imagen no exceda el contenedor */
-    height: auto;
-    border-radius: 8px; /* Bordes redondeados para la imagen */
-    border: 2px solid #C9AB81; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para la imagen */
+  max-width: 350px;
+  /* Asegura que la imagen no exceda el contenedor */
+  height: auto;
+  border-radius: 5px;
+  /* Bordes redondeados para la imagen */
+  border: 1px solid #979797;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Sombra para la imagen */
   }
 
   @media (max-width: 768px) {
@@ -64,6 +70,9 @@
     flex-direction: column-reverse;
     gap: 1rem;
     padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
   }
   .exhibitions-content {
     padding: 1rem;
