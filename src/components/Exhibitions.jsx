@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../styles/exhibitions.css";
 import FlowingMenu from "./FlowingMenu";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+// Registrar ScrollTrigger
+gsap.registerPlugin(ScrollTrigger);
 
 const Exhibitions = () => {
   const demoItems = [
@@ -8,17 +14,61 @@ const Exhibitions = () => {
       link: "#",
       text: "Exposiciones",
       image:
-        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472409/carru019_sz6sai.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749749031/marquee02_p7vyvx.webp",
     },
   ];
+
+  const exhibitionsRef = useRef(null);
+  const imageRef = useRef(null);
+  const textRef = useRef(null);
+
+  useGSAP(() => {
+    // Animación del contenedor al entrar en pantalla
+    gsap.from(exhibitionsRef.current, {
+      opacity: 0,
+      y: 100,
+      duration: 1.5,
+      scrollTrigger: {
+        trigger: exhibitionsRef.current,
+        start: "top 80%", // Se activa cuando el 80% de la sección está en la pantalla
+        toggleActions: "play none none none", // Reproduce la animación una vez
+      },
+    });
+
+    // Animación de la imagen
+    gsap.from(imageRef.current, {
+      opacity: 0,
+      x: -100,
+      duration: 1.5,
+      delay: 0.3,
+      scrollTrigger: {
+        trigger: exhibitionsRef.current,
+        start: "top 80%",
+        toggleActions: "play none none none",
+      },
+    });
+
+    // Animación del texto
+    gsap.from(textRef.current, {
+      opacity: 0,
+      x: 100,
+      duration: 1.5,
+      delay: 0.5,
+      scrollTrigger: {
+        trigger: exhibitionsRef.current,
+        start: "top 80%",
+        toggleActions: "play none none none",
+      },
+    });
+  }, []);
 
   return (
     <>
       <div style={{ height: "100px", position: "relative" }}>
         <FlowingMenu items={demoItems} />
       </div>
-      <section className="exhibitions" id="exhibitions">
-        <div className="exhibitions-content">
+      <section className="exhibitions" id="exhibitions" ref={exhibitionsRef}>
+        <div className="exhibitions-content" ref={textRef}>
           <ul className="exhibitions-list">
             <li className="exhibitions-item">
               Pieza seleccionada en el II Premio Nacional de Escultura María
@@ -70,7 +120,7 @@ const Exhibitions = () => {
             </li>
           </ul>
         </div>
-        <div className="exhibitions-image-container">
+        <div className="exhibitions-image-container" ref={imageRef}>
           <img
             src="https://res.cloudinary.com/dzqgni1qi/image/upload/v1742840943/carlosoldando_tusmd0.webp"
             alt="Exposiciones"

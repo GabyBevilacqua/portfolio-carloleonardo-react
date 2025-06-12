@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../styles/awards.css";
 import FlowingMenu from "./FlowingMenu";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+// Registrar ScrollTrigger
+gsap.registerPlugin(ScrollTrigger);
 
 const Awards = () => {
   const demoItems = [
@@ -8,25 +14,68 @@ const Awards = () => {
       link: "#",
       text: "Premios y reconocimientos",
       image:
-        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749472408/carru011_oaqk1a.webp",
+        "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749749030/marquee01_etgxib.webp",
     },
   ];
+
+  const awardsRef = useRef(null);
+  const imageRef = useRef(null);
+  const textRef = useRef(null);
+
+  useGSAP(() => {
+        // Animación del contenedor al entrar en pantalla
+    gsap.from(awardsRef.current, {
+      opacity: 0,
+      y: 100,
+      duration: 1.5,
+      scrollTrigger: {
+        trigger: awardsRef.current,
+        start: "top 80%", // Se activa cuando el 80% de la sección está en la pantalla
+        toggleActions: "play none none none", // Reproduce la animación una vez
+      },
+    });
+
+    // Animación de la imagen
+    gsap.from(imageRef.current, {
+      opacity: 0,
+      x: -100,
+      duration: 1.5,
+      delay: 0.3,
+      scrollTrigger: {
+        trigger: awardsRef.current,
+        start: "top 80%",
+        toggleActions: "play none none none",
+      },
+    });
+
+    // Animación del texto
+    gsap.from(textRef.current, {
+      opacity: 0,
+      x: 100,
+      duration: 1.5,
+      delay: 0.5,
+      scrollTrigger: {
+        trigger: awardsRef.current,
+        start: "top 80%",
+        toggleActions: "play none none none",
+      },
+    });
+  }, []);
 
   return (
     <>
       <div style={{ height: "100px", position: "relative" }}>
         <FlowingMenu items={demoItems} />
       </div>
-      <section className="awards" id="awards">
-        <div className="awards-image-container">
+      <section className="awards" id="awards"  ref={awardsRef}>
+        <div className="awards-image-container" ref={imageRef}>
           <img
             src="https://res.cloudinary.com/dzqgni1qi/image/upload/v1749143642/carlo03_nsehlq.webp"
             alt="Premios y reconocimientos"
             className="awards-image"
           />
         </div>
-        <div className="awards-content">
-
+        <div className="awards-content" ref={textRef}>
           <ul className="awards-list">
             <li className="awards-item">
               Mención de Honor — “El Ada de los ruidos del pensamiento”, mineral

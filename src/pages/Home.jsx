@@ -19,6 +19,7 @@ import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import CircularGallery from "../components/CircularGallery";
+import Footer from "../components/Footer";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -94,6 +95,7 @@ function Home() {
       <Exhibitions />
       <Education />
       <Contact />
+      <Footer />
     </>
   );
 }
