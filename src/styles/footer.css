@@ -20,9 +20,19 @@
   text-shadow: 0 1px 6px rgba(0,0,0,0.18);
 }
 
-@media (max-width: 600px) {
+.designer-link {
+  color: #718dc2; /* O el color que prefieras */
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.designer-link:hover {
+  color: #aeb1b6;
+}
+
+@media (max-width: 840px) {
   .footer {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     padding: 0.7rem 0 0.5rem 0;
   }
 }

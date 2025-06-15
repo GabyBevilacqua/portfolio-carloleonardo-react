@@ -59,12 +59,12 @@
   /* Color al pasar el mouse por encima */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 840px) {
   .navbar {
     padding: 20px 0 10px 0;
     left: 0;
     right: 0;
-    width: 100vw;
+    width: 100%;
     min-width: 0;
     box-sizing: border-box;
   }

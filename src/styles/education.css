@@ -71,7 +71,7 @@
   /* Espaciado entre los elementos de la lista */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 840px) {
   .education {
     flex-direction: column;
     gap: 1rem;

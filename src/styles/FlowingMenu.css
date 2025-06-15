@@ -140,7 +140,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 840px) {
   .menu-wrap {
     height: auto;
     min-height: 60px;

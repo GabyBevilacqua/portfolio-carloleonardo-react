@@ -59,7 +59,7 @@
   /* Espaciado entre párrafos */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 840px) {
   .about {
     height: auto;
     min-height: 100vh;

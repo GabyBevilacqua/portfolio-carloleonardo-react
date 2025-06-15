@@ -82,7 +82,7 @@
 }
 
 /* Estilos para pantallas móviles */
-@media (max-width: 768px) {
+@media (max-width: 840px) {
   .contact {
     padding: 20px 10px;
     /* Reduce el padding */

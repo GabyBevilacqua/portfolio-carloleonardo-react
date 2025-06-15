@@ -41,7 +41,7 @@
     {
       "id": "obra3",
       "titulo": "La Ultima Mascara",
-      "descripcion": "Descripción de la obra 2...",
+      "descripcion": "Explora los gestos y expresiones de un hombre inculto e influenciable, atrapado en la manipulación de su entorno.",
       "tecnica": "Esculpido en hierro.",
       "dimensiones": "50 cm X 32 cm X 63 cm, 2010",
       "precio": "Vendida",
@@ -59,7 +59,7 @@
       "titulo": "El Hada de los ruidos del pensamiento, Mencion de honor de la AEPE 2023, XVII Certamen de Valdepeñas",
       "descripcion": "Escultura realizada por encargo para la artista Gabriella Bevilacqua, quien posteriormente incorporó elementos adicionales a la pieza. Mi labor en esta obra consistió en la creación de la estructura base (cuerpo) en acero inoxidable y mineral de hierro. Agradezco a Gabriella Bevilacqua por la oportunidad de colaborar en este proyecto.",
       "tecnica": "Mineral de hierro, acero inoxidable y resina con tintas.",
-      "dimensiones": "Dimensiones de la obra 1...",
+      "dimensiones": "70 cm X 59 cm X 50 cm, 2023",
       "precio": "Disponible",
       "imagenes": [
         "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749052832/ada007_yp44re.webp",
@@ -146,7 +146,7 @@
       "titulo": "Flor-llama",
       "descripcion": "La dualidad del fuego: su poder de destrucción y su capacidad de renacer. Como una flor que arde sin consumirse, encarna el ciclo eterno de transformación, donde el dolor da paso a la renovación.",
       "tecnica": "Forja fria y esculpido en acero inoxidable.",
-      "dimensiones": "29 cm X 27 cm X 15 cm 2019",
+      "dimensiones": "29 cm X 27 cm X 15 cm, 2019",
       "precio": "Disponible",
       "imagenes": [
         "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749050964/llama005_roclap.webp",
@@ -163,7 +163,7 @@
       "titulo": "Florero Roto",
       "descripcion": "Representa la ruptura del ideal que muchas mujeres construyen sobre su vida. Una metáfora visual de cómo la realidad y las imposiciones externas quiebran esos sueños, revelando la fragilidad de las expectativas que nos enseñaron a desear. Escultura realizada por encargo para la artista Gabriella Bevilacqua, quien posteriormente incorporó elementos adicionales a la pieza. Mi labor en esta obra consistió en la creación de la estructura base en acero inoxidable. Agradezco a Gabriella Bevilacqua por la oportunidad de colaborar en este proyecto.",
       "tecnica": "Acero inoxidable y resina con tintas",
-      "dimensiones": "57 cm X 45 cm X 45 cm 2023",
+      "dimensiones": "57 cm X 45 cm X 45 cm, 2023",
       "precio": "Disponible",
       "imagenes": [
         "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748163374/florero006_bc6g70.webp",
@@ -185,7 +185,7 @@
       "titulo": "Ursula",
       "descripcion": "Mujer",
       "tecnica": "Forja fria y esculpido en acero inoxidable.",
-      "dimensiones": "46 cm X 27 cm X 36 cm 2020",
+      "dimensiones": "46 cm X 27 cm X 36 cm, 2020",
       "precio": "Disponible",
       "imagenes": ["https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142307/ursula01_tdkjlt.webp",
       "https://res.cloudinary.com/dzqgni1qi/image/upload/v1749142309/ursula02_qnb9rj.webp",
@@ -206,7 +206,7 @@
     {
       "id": "obra24",
       "titulo": "Ahogado",
-      "descripcion": "Descripción de la obra 5...",
+      "descripcion": "Representa el peso del bullying y la depresión, mostrando a una figura sumergida en su propio dolor.",
       "tecnica": "Esculpido en hierro.",
       "dimensiones": "30 cm X 25 cm X 20 cm, 2006",
       "precio": "Vendida",
@@ -223,10 +223,10 @@
     {
       "id": "obra25",
       "titulo": "Premio Nacional 2011, Conversasión",
-      "descripcion": "Descripción de la obra 6...",
+      "descripcion": "1er Premio nacional de escultura del año 2011, Venezuela. Simboliza el diálogo interno de Bolívar con su alter ego, reflejando sus dudas, frustraciones y contradicciones.",
       "tecnica": "Esculpido en hierro.",
       "dimensiones": "Conjunto de dos piezas",
-      "precio": "S/P",
+      "precio": "Obra patrimonio del estado",
       "imagenes": [
         "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491156/001_o9cd4r.jpg",
         "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491156/002_tfhqtt.jpg",
@@ -242,9 +242,9 @@
     {
       "id": "obra26",
       "titulo": "Complaciendo a la locura",
-      "descripcion": "Descripción de la obra 7...",
+      "descripcion": "Una pieza que representa la locura y la obsesión, mostrando cómo estas pueden consumir a una persona.",
       "tecnica": "Esculpido en hierro.",
-      "dimensiones": "Dimensiones de la obra 1... 2002",
+      "dimensiones": "30 cm X 40 cm X 20 cm, 2002",
       "precio": "Vendida",
       "imagenes": [
         "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742491553/complaciendo_la_locura-01_w5xtfn.jpg",
@@ -259,7 +259,7 @@
       "titulo": "Aducción II",
       "descripcion": "Cuando te hacen pensar algo contrario a tus intereses.",
       "tecnica": "Esculpido en hierro.",
-      "dimensiones": "35 cm X 25 cm X 20 cm 2002",
+      "dimensiones": "35 cm X 25 cm X 20 cm, 2002",
       "precio": "Vendida",
       "imagenes": [
         "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742416603/aduccion1-03_iayvjr.jpg",
@@ -276,7 +276,7 @@
       "titulo": "Por la Vida",
       "descripcion": "Es una pieza que incita a la reflexión de hacer aquello que te motiva y no las funciones mecánicas impuestas por la cotidianidad.",
       "tecnica": "Esculpido en hierro.",
-      "dimensiones": "106 cm X 166 cm X 70 cm 2000.",
+      "dimensiones": "106 cm X 166 cm X 70 cm, 2000.",
       "precio": "Colección privada",
       "imagenes": [
         "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742143800/lavida05_zigwtm.jpg",
@@ -292,7 +292,7 @@
       "titulo": "Falsa Seguridad",
       "descripcion": "Inspirada en el cuestionamiento de la linertad.",
       "tecnica": "Esculpido en hierro.",
-      "dimensiones": "86 cm X 44 cm X 60 cm 2000",
+      "dimensiones": "86 cm X 44 cm X 60 cm, 2000",
       "precio": "Vendida",
       "imagenes": [
         "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742138206/falsa07_xbkbpx.jpg",
@@ -309,7 +309,7 @@
       "titulo": "La Contución",
       "descripcion": "Estudio a la violencia",
       "tecnica": "Esculpido en hierro.",
-      "dimensiones": "40 cm X 27 cm X 24 cm 2001",
+      "dimensiones": "40 cm X 27 cm X 24 cm, 2001",
       "precio": "Vendida",
       "imagenes": [
         "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742136256/contucion03_gp1kei.jpg",
@@ -323,7 +323,7 @@
       "titulo": "Gárgola",
       "descripcion": "Esta pieza, hecha en acero y soldadura de arco, representa una gárgola destinada a asustar a la muerte y dar paso a la paz. Su concepto surge de la destrucción de ciudades e ideas por factores económicos, religiosos y políticos. El artista rechaza el 'arte de maletín', dominado por la burocracia y el mercado, en favor de un arte auténtico, nacido de la soledad del taller y el respeto a las diferencias. Critica la comercialización del arte, que lo aleja de su sentido humano y trascendencia. La obra desafía la estética convencional y reivindica el arte con contenido y significado.",
       "tecnica": "Esculpido en hierro.",
-      "dimensiones": "40 cm X 27 cm X 24 cm 2016",
+      "dimensiones": "40 cm X 27 cm X 24 cm, 2016",
       "precio": "Disponible (en Venezuela)",
       "imagenes": [
         "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578909/IMG_0133_vdrmjp.jpg",
@@ -344,9 +344,9 @@
     {
       "id": "obra14",
       "titulo": "Volumen abstracto",
-      "descripcion": "...",
+      "descripcion": "Estudio del volumen y la forma, explorando la relación entre el espacio y la materia.",
       "tecnica": "Lámina de hierro al carbón",
-      "dimensiones": "50 cm X 32 cm X 63 cm",
+      "dimensiones": "50 cm X 32 cm X 63 cm, 2014",
       "precio": "Disponible (en Venezuela)",
       "imagenes": [
         "https://res.cloudinary.com/dzqgni1qi/image/upload/v1742578979/retorcida001_st6ja6.jpg",
@@ -362,7 +362,7 @@
       "titulo": "Ave Fenix",
       "descripcion": "El Ave Fénix es un símbolo de renacimiento y transformación, representando la capacidad de resurgir de las cenizas. Esta obra captura la esencia de este mito, utilizando técnicas de forja fría y esculpido en acero inoxidable para crear una representación dinámica y poderosa del ave.",
       "tecnica": "Forja fria y esculpido en acero inoxidable.",
-      "dimensiones": "50 cm X 32 cm X 63 cm 2022",
+      "dimensiones": "50 cm X 32 cm X 63 cm, 2022",
       "precio": "Disponible",
       "imagenes": [
         "https://res.cloudinary.com/dzqgni1qi/image/upload/v1748164593/fenix003_nbk6xe.webp",
@@ -384,8 +384,8 @@
       "titulo": "La bruja de la Mancha",
       "descripcion": "Tacones bordoneantes que embrujan en el latir frenético de un cuerpo danzante, flamenco.",
       "tecnica": "Forja fria y esculpido en acero inoxidable.",
-      "dimensiones": "61 cm X 31 cm X 31 cm",
-      "precio": "Precio de la obra 1...",
+      "dimensiones": "61 cm X 31 cm X 31 cm, 2025",
+      "precio": "Disponible",
       "imagenes": ["https://picsum.photos/id/13/200"]
     },
 
