@@ -83,7 +83,7 @@ const Contact = () => {
                         />
                         <textarea
                             name="message"
-                            placeholder="Su Mensage"
+                            placeholder="Su Mensaje"
                             value={formData.message}
                             onChange={handleChange}
                             required
