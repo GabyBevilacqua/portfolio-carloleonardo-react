@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer">
           <p>© 2025 Carlo Leonardo Aponte. Todos los derechos reservados.</p>
           <p>
-            Diseño, desarrollo y código por {" "}
+            Sitio web diseñado, programado y creado por {" "}
             <a
               href="https://www.linkedin.com/in/gabriellabevilacqua/"
               target="_blank"
