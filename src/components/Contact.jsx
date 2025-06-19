@@ -4,6 +4,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "../styles/contact.css";
+import Swal from "sweetalert2";
 
 // Registrar ScrollTrigger
 gsap.registerPlugin(ScrollTrigger);
@@ -37,7 +38,6 @@ const Contact = () => {
         e.preventDefault();
 
         try {
-            // Cambia el endpoint para que apunte a la función serverless
             const response = await fetch("/api/send-email", {
                 method: "POST",
                 headers: {
@@ -47,15 +47,30 @@ const Contact = () => {
             });
 
             if (response.ok) {
-                alert("Mensaje enviado con éxito 🚀");
+                Swal.fire({
+                  icon: "success",
+                  title: "¡Mensaje enviado!",
+                  text: "Tu mensaje fue enviado con éxito 🚀",
+                  confirmButtonColor: "#C9AB81"
+                });
                 setFormData({ name: "", email: "", message: "" });
             } else {
                 const errorData = await response.json();
-                alert(`Hubo un error al enviar el mensaje: ${errorData.error}`);
+                Swal.fire({
+                  icon: "error",
+                  title: "Error",
+                  text: `Hubo un error al enviar el mensaje: ${errorData.error}`,
+                  confirmButtonColor: "#C9AB81"
+                });
             }
         } catch (error) {
             console.error("Error:", error);
-            alert("Error de conexión con el servidor.");
+            Swal.fire({
+              icon: "error",
+              title: "Error de conexión",
+              text: "No se pudo conectar con el servidor.",
+              confirmButtonColor: "#C9AB81"
+            });
         }
     };
 
