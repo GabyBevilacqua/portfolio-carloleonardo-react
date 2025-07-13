@@ -78,32 +78,32 @@ const Awards = () => {
         <div className="awards-content" ref={textRef}>
           <ul className="awards-list">
             <li className="awards-item">
-              Mención de Honor — “El Ada de los ruidos del pensamiento”, mineral
+              ⚜ Mención de Honor — “El Ada de los ruidos del pensamiento”, mineral
               de hierro, acero inoxidable y resina con tintas, colaboración con
               la artista Gabriella Bevilacqua. XVII Certamen de Valdepeñas,
               entregado por la AEPE, Valdepeñas, España (Junio 2023).
             </li>
             <li className="awards-item">
-              Mención especial — “Analogía de la arboleda”, acero inoxidable y
+              ⚜ Mención especial — “Analogía de la arboleda”, acero inoxidable y
               resina con tintas, colaboración con la artista Gabriella
               Bevilacqua. II Premio Nacional de Escultura María Belén Morales,
               Tenerife, España (2021).
             </li>
             <li className="awards-item">
-              1er Premio Nacional de Escultura — “Bolívar y sus circunstancias”,
+              ⚜ 1er Premio Nacional de Escultura — “Bolívar y sus circunstancias”,
               mineral de hierro, Certamen Gran Explosión Cultural Bicentenaria,
               Caracas, Venezuela (Julio 2011)
             </li>
             <li className="awards-item">
-              Premio Ateneo del Hatillo — “La Cultura y La Ignorancia”, mineral
+              ⚜ Premio Ateneo del Hatillo — “La Cultura y La Ignorancia”, mineral
               de hierro, Caracas, Venezuela (Noviembre 1999)
             </li>
             <li className="awards-item">
-              Premiada en “Man Faced With the Future” — “Sueños de baletistas”,
+              ⚜ Premiada en “Man Faced With the Future” — “Sueños de baletistas”,
               hierro de bajo carbono, Sao Paulo, Brasil (Febrero 1999)
             </li>
             <li className="awards-item">
-              Premio Bogotá Plastic Art Award — “Los Comensales”, cabilla y
+              ⚜ Premio Bogotá Plastic Art Award — “Los Comensales”, cabilla y
               forja, Bogotá, Colombia (Julio 1998)
             </li>
           </ul>

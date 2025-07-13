@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-    font-family: Arial, sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     color:aliceblue
   }
 
@@ -13,3 +13,9 @@ html {
   overflow-x: hidden;
 }
   
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

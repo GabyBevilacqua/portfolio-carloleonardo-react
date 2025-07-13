@@ -79,23 +79,23 @@ const Education = () => {
         <div className="education-content" ref={textRef}>
           <ul className="education-list">
             <li className="education-item">
-              “Conocimientos del color” – Taller del Pintor Carlos Valverde
+              ⚜ “Conocimientos del color” – Taller del Pintor Carlos Valverde
               (1973)
             </li>
             <li className="education-item">
-              “Lectura de la Narrativa Plástica” – Taller del Pintor Carlos
+              ⚜ “Lectura de la Narrativa Plástica” – Taller del Pintor Carlos
               Valverde (1974)
             </li>
             <li className="education-item">
-              “Técnica escrita de Tisani” – Taller del Escultor Guido Franchesi
+              ⚜ “Técnica escrita de Tisani” – Taller del Escultor Guido Franchesi
               (1982)
             </li>
             <li className="education-item">
-              “Estudios del Diseño” – Taller del Decorador Rafael Fernández
+              ⚜ “Estudios del Diseño” – Taller del Decorador Rafael Fernández
               (1986)
             </li>
             <li className="education-item">
-              Ingeniería Mecánica – Universidad Central de Venezuela, Caracas
+              ⚜ Ingeniería Mecánica – Universidad Central de Venezuela, Caracas
               (Graduado en 1985)
             </li>
             <li className="education-item">
@@ -103,7 +103,7 @@ const Education = () => {
               (1991)
             </li>
             <li className="education-item">
-              “Manejo del color y composición” – Taller del Pintor Secundino
+              ⚜ “Manejo del color y composición” – Taller del Pintor Secundino
               Rivera (1992)
             </li>
           </ul>

@@ -1,23 +1,20 @@
 /* Estilos generales del navbar */
 .navbar {
   position: fixed;
-  /* Siempre visible en la pantalla */
   top: 0;
   width: 100%;
   z-index: 1000;
-  background: linear-gradient(180deg,
-      #050608 0%,
-      rgba(0, 0, 0, 0) 100%);
-  backdrop-filter: blur(200px);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: rgba(15, 23, 34, 0.45); /* Fondo semitransparente */
+  backdrop-filter: blur(12px);         /* Efecto cristal esmerilado */
+  -webkit-backdrop-filter: blur(12px); /* Soporte Safari */
+  box-shadow: 0 2px 12px rgba(0,0,0,0.12);
   transition: background-color 0.5s ease;
-  /* Transición suave al cambiar de color */
   align-items: center;
   padding: 40px 0 20px 0;
 }
 
 .navbar.scrolled {
-  background-color: #222b46d8;
+  background-color: #0d101ac5;
   /* Color al hacer scroll */
 }
 
