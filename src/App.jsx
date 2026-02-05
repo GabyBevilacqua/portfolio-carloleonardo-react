@@ -25,17 +25,17 @@ function AnimatedRoutes() {
         <Route
           path="/"
           element={
-            <PageWrapper>
+           // <PageWrapper>
               <Home />
-            </PageWrapper>
+          //  </PageWrapper>
           }
         />
         <Route
           path="/obra/:id"
           element={
-            <PageWrapper>
+          //  <PageWrapper>
               <Artwork />
-            </PageWrapper>
+          //  </PageWrapper>
           }
         />
       </Routes>

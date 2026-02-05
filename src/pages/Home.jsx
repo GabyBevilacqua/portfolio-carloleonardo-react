@@ -52,7 +52,7 @@ function Home() {
         />
         <div className="name-overlay">
           <h1 className="name-title">CARLOLEONARDO APONTE</h1>
-          <p className="name-subtitle">Escultor</p>
+          <h2 className="name-subtitle">Escultor</h2>
           <div className="social-icons">
             <a
               href="https://www.instagram.com/carlo.aponte/"

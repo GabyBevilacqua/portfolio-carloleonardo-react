@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="footer">
       <span className="footer-text">
         <div className="footer">
-          <p>© 2025 Carlo Leonardo Aponte. Todos los derechos reservados.</p>
+          <p>© 2026 Carlo Leonardo Aponte. Todos los derechos reservados.</p>
           <p>
             Sitio web diseñado, programado y creado por {" "}
             <a
@@ -36,7 +36,7 @@ const Footer = () => {
           <div className="privacy-modal" onClick={(e) => e.stopPropagation()}>
             <h2>Política de Privacidad</h2>
             <p>
-              Última actualización: junio 2025.<br /> 
+              Última actualización: febrero 2026.<br /> 
               Este sitio web no utiliza cookies
               ni recopila datos personales de forma automática.
             </p>
