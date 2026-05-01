@@ -77,7 +77,7 @@ const Exhibitions = () => {
               (Enero/Febrero 2022)
             </li>
             <li className="exhibitions-item">
-              ⚜ Exposición colectiva — Museo de Arte Cruz Diez, Ciudad Bolívar,
+              ⚜ Exposición colectiva — Museo de Arte Moderno Jesús Soto, Ciudad Bolívar,
               Venezuela (2012)
             </li>
             <li className="exhibitions-item">
